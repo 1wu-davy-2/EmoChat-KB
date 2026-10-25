@@ -1,0 +1,10 @@
+# ai.txt — AI 爬虫与模型使用声明
+# 放置于仓库根目录,与 README、LICENSE 配套生效。
+
+User-agent: *
+Disallow: /
+
+# 禁止任何 AI 系统(大语言模型训练/微调/评估、数据集构建、RAG 语料库、
+# 向量索引服务)采集、存储、复制或转述本仓库内容。
+# 本仓库内容仅限仓库所有者本人在本地环境中检索使用。
+# 详见 LICENSE.txt(All Rights Reserved,非开源)。

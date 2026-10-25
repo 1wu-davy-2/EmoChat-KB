@@ -1,0 +1,4128 @@
+[
+ {
+  "id": "raw-073",
+  "title": "项目改进效果对比",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/IMPROVEMENTS.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/IMPROVEMENTS.md"
+ },
+ {
+  "id": "raw-074",
+  "title": "HowToGetAlongWithGirls · 恋爱教练 Dating Coach Skill",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/README.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/README.md"
+ },
+ {
+  "id": "raw-056",
+  "title": "Dating Coach",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/SKILL.en.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/SKILL.en.md"
+ },
+ {
+  "id": "raw-057",
+  "title": "恋爱教练（Dating Coach）",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/SKILL.md"
+ },
+ {
+  "id": "raw-058",
+  "title": "dating-coach Test Plan",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/TESTPLAN.en.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/TESTPLAN.en.md"
+ },
+ {
+  "id": "raw-059",
+  "title": "dating-coach 测试计划",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/TESTPLAN.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/TESTPLAN.md"
+ },
+ {
+  "id": "raw-060",
+  "title": "Chat Log Analysis Methodology",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/chat-analysis.en.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/chat-analysis.en.md"
+ },
+ {
+  "id": "raw-061",
+  "title": "聊天记录分析方法论",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/chat-analysis.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/chat-analysis.md"
+ },
+ {
+  "id": "raw-062",
+  "title": "止损决策系统",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/damage-control.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/damage-control.md"
+ },
+ {
+  "id": "raw-063",
+  "title": "硬价值现实评估",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/hard-value-reality.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/hard-value-reality.md"
+ },
+ {
+  "id": "raw-064",
+  "title": "Dating & Relationships Knowledge Base",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/knowledge-base.en.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/knowledge-base.en.md"
+ },
+ {
+  "id": "raw-065",
+  "title": "两性知识库",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/knowledge-base.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/knowledge-base.md"
+ },
+ {
+  "id": "raw-066",
+  "title": "Full-Lifecycle Roadmap",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/lifecycle.en.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/lifecycle.en.md"
+ },
+ {
+  "id": "raw-067",
+  "title": "全周期路线图",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/lifecycle.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/lifecycle.md"
+ },
+ {
+  "id": "raw-068",
+  "title": "Situation Profile (a living \"dossier\" for each girl)",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/profile-template.en.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/profile-template.en.md"
+ },
+ {
+  "id": "raw-069",
+  "title": "情况记录（每个女孩一份\"活案卷\"）",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/profile-template.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/profile-template.md"
+ },
+ {
+  "id": "raw-070",
+  "title": "真实场景应对库",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/realistic-scenarios.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/realistic-scenarios.md"
+ },
+ {
+  "id": "raw-071",
+  "title": "用户自我诊断系统",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/self-diagnosis.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/self-diagnosis.md"
+ },
+ {
+  "id": "raw-072",
+  "title": "信号识别增强库",
+  "tags": [
+   "语料原文",
+   "HowToGetAlongWithGirls"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (blob/HEAD/.claude/skills/dating-coach/references/signal-patterns.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/signal-patterns.md"
+ },
+ {
+  "id": "raw-044",
+  "title": "版本检查（最多每 24 小时一次，不影响对话速度）",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/SKILL.md"
+ },
+ {
+  "id": "raw-045",
+  "title": "/qingsheng-upgrade — 升级情圣技能",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/qingsheng-upgrade.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/qingsheng-upgrade.md"
+ },
+ {
+  "id": "raw-046",
+  "title": "情圣进阶技巧库",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/advanced-techniques.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/advanced-techniques.md"
+ },
+ {
+  "id": "raw-047",
+  "title": "Autopilot 模式指南",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/autopilot-guide.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/autopilot-guide.md"
+ },
+ {
+  "id": "raw-048",
+  "title": "实战对话示例库",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/examples-library.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/examples-library.md"
+ },
+ {
+  "id": "raw-049",
+  "title": "心态与元策略概念库",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/mindset-concepts.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/mindset-concepts.md"
+ },
+ {
+  "id": "raw-050",
+  "title": "平台差异化指南",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/platform-guide.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/platform-guide.md"
+ },
+ {
+  "id": "raw-051",
+  "title": "展示面诊断指南",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/profile-audit.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/profile-audit.md"
+ },
+ {
+  "id": "raw-052",
+  "title": "挽回与冷激活手册",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/recovery-playbook.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/recovery-playbook.md"
+ },
+ {
+  "id": "raw-053",
+  "title": "方法论工具箱",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/signals-tools.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/signals-tools.md"
+ },
+ {
+  "id": "raw-054",
+  "title": "七阶段推进系统",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/stages.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/stages.md"
+ },
+ {
+  "id": "raw-055",
+  "title": "用户档案与多目标管理系统",
+  "tags": [
+   "语料原文",
+   "情圣"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (blob/HEAD/skill/references/user-context.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/情圣/skill/references/user-context.md"
+ },
+ {
+  "id": "raw-001",
+  "title": "证据分级与内容边界",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/01-证据分级与内容边界.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/01-证据分级与内容边界.md"
+ },
+ {
+  "id": "raw-002",
+  "title": "亲密关系心理学总论",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/02-亲密关系心理学总论.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/02-亲密关系心理学总论.md"
+ },
+ {
+  "id": "raw-003",
+  "title": "依恋理论与情绪调节",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/03-依恋理论与情绪调节.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/03-依恋理论与情绪调节.md"
+ },
+ {
+  "id": "raw-004",
+  "title": "MBTI、人格与伴侣匹配",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/04-MBTI人格与匹配.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/04-MBTI人格与匹配.md"
+ },
+ {
+  "id": "raw-005",
+  "title": "PUA、操控知识与伦理替代",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/05-PUA操控与伦理替代.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/05-PUA操控与伦理替代.md"
+ },
+ {
+  "id": "raw-006",
+  "title": "吸引、约会与关系启动",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/06-吸引约会与关系启动.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/06-吸引约会与关系启动.md"
+ },
+ {
+  "id": "raw-007",
+  "title": "沟通、冲突与修复",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/07-沟通冲突与修复.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/07-沟通冲突与修复.md"
+ },
+ {
+  "id": "raw-008",
+  "title": "同意、边界、性与亲密",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/08-同意边界性与亲密.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/08-同意边界性与亲密.md"
+ },
+ {
+  "id": "raw-009",
+  "title": "在线约会与数字关系",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/09-在线约会与数字关系.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/09-在线约会与数字关系.md"
+ },
+ {
+  "id": "raw-010",
+  "title": "恋爱哲学",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/10-恋爱哲学.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/10-恋爱哲学.md"
+ },
+ {
+  "id": "raw-011",
+  "title": "婚姻、家庭与关系生命周期",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/11-婚姻家庭与生命周期.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/11-婚姻家庭与生命周期.md"
+ },
+ {
+  "id": "raw-012",
+  "title": "金钱、家务、育儿与双方家庭",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/12-金钱家务育儿与双方家庭.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/12-金钱家务育儿与双方家庭.md"
+ },
+ {
+  "id": "raw-013",
+  "title": "现代婚姻变迁史",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/13-现代婚姻变迁史.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/13-现代婚姻变迁史.md"
+ },
+ {
+  "id": "raw-014",
+  "title": "社会发展与家庭变迁",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/14-社会发展与家庭变迁.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/14-社会发展与家庭变迁.md"
+ },
+ {
+  "id": "raw-015",
+  "title": "分手、背叛与关系修复",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/15-分手背叛与关系修复.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/15-分手背叛与关系修复.md"
+ },
+ {
+  "id": "raw-016",
+  "title": "多元关系与反刻板印象",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/16-多元关系与反刻板印象.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/16-多元关系与反刻板印象.md"
+ },
+ {
+  "id": "raw-017",
+  "title": "中国法律、安全与危机转介",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/17-中国法律安全与危机转介.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/17-中国法律安全与危机转介.md"
+ },
+ {
+  "id": "raw-018",
+  "title": "实用练习与对话卡",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/18-实用练习与对话卡.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/18-实用练习与对话卡.md"
+ },
+ {
+  "id": "raw-019",
+  "title": "核心书单与论文索引",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/19-核心书单与论文索引.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/19-核心书单与论文索引.md"
+ },
+ {
+  "id": "raw-020",
+  "title": "经典社交体系的机制、证据与风险边界",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/knowledge/20-经典社交体系的机制、证据与风险边界.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/knowledge/20-经典社交体系的机制、证据与风险边界.md"
+ },
+ {
+  "id": "raw-021",
+  "title": "实用沟通与网络社交策略：导读与使用分级",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/00-导读与使用分级.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/00-导读与使用分级.md"
+ },
+ {
+  "id": "raw-022",
+  "title": "ChatLab聊天记录分析适配",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/ChatLab聊天记录分析适配.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/ChatLab聊天记录分析适配.md"
+ },
+ {
+  "id": "raw-023",
+  "title": "万能吵架技巧：理性冲突处理指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/万能吵架技巧：理性冲突处理指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/万能吵架技巧：理性冲突处理指南.md"
+ },
+ {
+  "id": "raw-024",
+  "title": "万能夸人的话术技巧：真诚认可的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/万能夸人的话术技巧：真诚认可的实用指南.md"
+ },
+ {
+  "id": "raw-025",
+  "title": "为他人提供情绪价值：温暖且有效的回应指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/为他人提供情绪价值：温暖且有效的回应指南.md"
+ },
+ {
+  "id": "raw-026",
+  "title": "主动表达、第一次见面与自然接触",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/主动表达、第一次见面与自然接触.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/主动表达、第一次见面与自然接触.md"
+ },
+ {
+  "id": "raw-027",
+  "title": "公开表达案例的伦理转译",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/公开表达案例的伦理转译.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/公开表达案例的伦理转译.md"
+ },
+ {
+  "id": "raw-028",
+  "title": "关系投入校准：先推进与修复，必要时再退出",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md"
+ },
+ {
+  "id": "raw-029",
+  "title": "化解尴尬：轻松救场的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/化解尴尬：轻松救场的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/化解尴尬：轻松救场的实用指南.md"
+ },
+ {
+  "id": "raw-030",
+  "title": "场景感、松弛感与社交校准：从接话到关系推进",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/场景感、松弛感与社交校准：从接话到关系推进.md"
+ },
+ {
+  "id": "raw-031",
+  "title": "实战话术编排器：从一句回复到后续分支",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/实战话术编排器：从一句回复到后续分支.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/实战话术编排器：从一句回复到后续分支.md"
+ },
+ {
+  "id": "raw-032",
+  "title": "巧妙接话技巧：让沟通更流畅的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/巧妙接话技巧：让沟通更流畅的实用指南.md"
+ },
+ {
+  "id": "raw-033",
+  "title": "废话文学回复指南：轻松应对各类场景",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/废话文学回复指南：轻松应对各类场景.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/废话文学回复指南：轻松应对各类场景.md"
+ },
+ {
+  "id": "raw-034",
+  "title": "托人办事的高效话术指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/托人办事的高效话术指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/托人办事的高效话术指南.md"
+ },
+ {
+  "id": "raw-035",
+  "title": "提升表达逻辑性：从混乱到清晰的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/提升表达逻辑性：从混乱到清晰的实用指南.md"
+ },
+ {
+  "id": "raw-036",
+  "title": "提高气场：从内到外的力量感塑造指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/提高气场：从内到外的力量感塑造指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/提高气场：从内到外的力量感塑造指南.md"
+ },
+ {
+  "id": "raw-037",
+  "title": "有效拓展人脉：从建立到维护的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/有效拓展人脉：从建立到维护的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/有效拓展人脉：从建立到维护的实用指南.md"
+ },
+ {
+  "id": "raw-038",
+  "title": "聊天化被动为主动：引导互动的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/聊天化被动为主动：引导互动的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/聊天化被动为主动：引导互动的实用指南.md"
+ },
+ {
+  "id": "raw-039",
+  "title": "自然流、内在状态与结构化互动：伦理能力转译",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/自然流、内在状态与结构化互动：伦理能力转译.md"
+ },
+ {
+  "id": "raw-040",
+  "title": "获得领导青睐：从价值匹配到信任建立的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/获得领导青睐：从价值匹配到信任建立的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/获得领导青睐：从价值匹配到信任建立的实用指南.md"
+ },
+ {
+  "id": "raw-041",
+  "title": "被孤立如何破局：从自我调适到建立连接的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/被孤立如何破局：从自我调适到建立连接的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/被孤立如何破局：从自我调适到建立连接的实用指南.md"
+ },
+ {
+  "id": "raw-042",
+  "title": "长期记忆与关系档案",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/长期记忆与关系档案.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/长期记忆与关系档案.md"
+ },
+ {
+  "id": "raw-043",
+  "title": "高情商拒绝他人：体面护边界的实用指南",
+  "tags": [
+   "语料原文",
+   "狗头军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi (blob/HEAD/references/practical/高情商拒绝他人：体面护边界的实用指南.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/狗头军师/references/practical/高情商拒绝他人：体面护边界的实用指南.md"
+ },
+ {
+  "id": "method-001",
+  "title": "关系是动态系统:别把一切都归因于\"会不会聊天\"",
+  "tags": [
+   "关系心理学",
+   "系统思维",
+   "心态",
+   "归因"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/02-亲密关系心理学总论.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-001-关系动态系统与单一归因误区.md"
+ },
+ {
+  "id": "method-002",
+  "title": "回应性三要素:情绪价值的核心结构",
+  "tags": [
+   "情绪价值",
+   "回应性",
+   "倾听",
+   "共情"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/02-亲密关系心理学总论.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-002-回应性三要素与情绪价值.md"
+ },
+ {
+  "id": "method-003",
+  "title": "渐进互惠的自我披露:话题加深的方法与边界",
+  "tags": [
+   "自我披露",
+   "话题推进",
+   "边界",
+   "升温"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/02-亲密关系心理学总论.md , https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/06-吸引约会与关系启动.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-003-渐进互惠的自我披露.md"
+ },
+ {
+  "id": "method-004",
+  "title": "关系质量五观察点:看什么来判断这段关系",
+  "tags": [
+   "关系评估",
+   "信号",
+   "判断",
+   "关系心理学"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/02-亲密关系心理学总论.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-004-关系质量五观察点.md"
+ },
+ {
+  "id": "method-005",
+  "title": "积极建设性回应:她分享好消息时,才是加分关键时刻",
+  "tags": [
+   "情绪价值",
+   "好消息回应",
+   "感谢",
+   "正向互动"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/02-亲密关系心理学总论.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-005-积极建设性回应与日常正向互动.md"
+ },
+ {
+  "id": "method-006",
+  "title": "依恋两维度与聊天节奏:焦虑—回避是坐标,不是四种人格",
+  "tags": [
+   "依恋理论",
+   "聊天节奏",
+   "情绪调节",
+   "人格"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/03-依恋理论与情绪调节.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-006-依恋两维度与聊天节奏适配.md"
+ },
+ {
+  "id": "method-007",
+  "title": "追逐—撤退循环:已读不回引发的内耗机器,与改写方法",
+  "tags": [
+   "依恋理论",
+   "冲突",
+   "循环",
+   "已读不回",
+   "止损"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "约会",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/03-依恋理论与情绪调节.md , https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/07-沟通冲突与修复.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-007-追逐撤退循环的识别与改写.md"
+ },
+ {
+  "id": "method-008",
+  "title": "焦虑方与回避方的聊天自救清单",
+  "tags": [
+   "依恋理论",
+   "情绪调节",
+   "自我安抚",
+   "心态"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/03-依恋理论与情绪调节.md , https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/10-恋爱哲学.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-008-焦虑方与回避方的聊天自救.md"
+ },
+ {
+  "id": "method-009",
+  "title": "人格框架(MBTI/Big Five)在聊天中的正确用法:从标签到协商",
+  "tags": [
+   "MBTI",
+   "BigFive",
+   "人格",
+   "匹配",
+   "破冰"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/04-MBTI人格与匹配.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-009-人格框架从标签到协商.md"
+ },
+ {
+  "id": "method-010",
+  "title": "吸引不是单一排名:三层效应与追求心态",
+  "tags": [
+   "吸引",
+   "心态",
+   "约会方法",
+   "拒绝"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "约会"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/06-吸引约会与关系启动.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-010-吸引不是单一排名.md"
+ },
+ {
+  "id": "method-011",
+  "title": "好奇式对话:问—听—回应—分享循环与开场话题",
+  "tags": [
+   "开场",
+   "话题",
+   "接话",
+   "提问",
+   "约会方法"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/06-吸引约会与关系启动.md , https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/20-经典社交体系的机制、证据与风险边界.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-011-好奇式对话循环.md"
+ },
+ {
+  "id": "method-012",
+  "title": "低压力邀约与拒绝处理",
+  "tags": [
+   "邀约",
+   "拒绝",
+   "止损",
+   "升温"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/06-吸引约会与关系启动.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-012-低压力邀约与拒绝处理.md"
+ },
+ {
+  "id": "method-013",
+  "title": "从认识到确定关系的五阶段节奏与互惠信号清单",
+  "tags": [
+   "节奏",
+   "信号",
+   "判断",
+   "约会方法",
+   "止损"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/06-吸引约会与关系启动.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-013-五阶段节奏与互惠信号清单.md"
+ },
+ {
+  "id": "method-014",
+  "title": "文字聊天的局限与媒介升级:别用几十屏文字谈感情",
+  "tags": [
+   "线上聊天",
+   "媒介",
+   "误读",
+   "冲突"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/09-在线约会与数字关系.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-014-文字聊天的局限与媒介升级.md"
+ },
+ {
+  "id": "method-015",
+  "title": "从线上转到线下:时机选择与首次见面安全安排",
+  "tags": [
+   "转线下",
+   "初次见面",
+   "安全",
+   "约会方法"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "约会"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/09-在线约会与数字关系.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-015-线上转线下与首次见面安排.md"
+ },
+ {
+  "id": "method-016",
+  "title": "软启动四段式:事实—感受—需要—请求",
+  "tags": [
+   "表达",
+   "非暴力沟通",
+   "请求",
+   "冲突修复"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/07-沟通冲突与修复.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-016-软启动四段式表达.md"
+ },
+ {
+  "id": "method-017",
+  "title": "高质量倾听三步:复述—确认—探问",
+  "tags": [
+   "倾听",
+   "接话",
+   "共情",
+   "情绪价值"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/07-沟通冲突与修复.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-017-高质量倾听三步.md"
+ },
+ {
+  "id": "method-018",
+  "title": "冲突暂停协议与有效道歉的六个成分",
+  "tags": [
+   "冲突修复",
+   "暂停",
+   "道歉",
+   "情绪调节"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "暧昧",
+   "约会",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/07-沟通冲突与修复.md , https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/18-实用练习与对话卡.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-018-冲突暂停与有效道歉.md"
+ },
+ {
+  "id": "method-019",
+  "title": "约会(聊天)后复盘七问:用事实代替脑补",
+  "tags": [
+   "复盘",
+   "判断",
+   "自我提升",
+   "约会方法"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/18-实用练习与对话卡.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-019-约会后复盘七问.md"
+ },
+ {
+  "id": "method-020",
+  "title": "真实、透明、可撤回:推进关系的伦理替代原则",
+  "tags": [
+   "伦理",
+   "推进",
+   "边界",
+   "约会方法",
+   "反操控"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/05-PUA操控与伦理替代.md , https://github.com/shengjidaguai-china/goutoujunshi/blob/HEAD/references/knowledge/20-经典社交体系的机制、证据与风险边界.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-020-真实透明的推进原则.md"
+ },
+ {
+  "id": "method-100",
+  "title": "接话公式与话题四维展开",
+  "tags": [
+   "核心方法",
+   "接话",
+   "话题",
+   "聊天公式"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "方法论",
+  "source": "\"调研/02-聊天技巧与话术.md;Metavoice https://metavoice.tw/articles/3-conversation-starters-topics;知乎 https://zhuanlan.zhihu.com/p/478985539\"",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-100-接话公式与话题四维.md"
+ },
+ {
+  "id": "method-101",
+  "title": "情绪价值三层:从问候赞美到给她想要的",
+  "tags": [
+   "核心方法",
+   "情绪价值",
+   "共情",
+   "倾听"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"调研/02-聊天技巧与话术.md;两颗红豆 https://blogs.2redbeans.com/zh-cn/01-情绪价值是什么我该如何提供情绪价值;知乎 https://zhuanlan.zhihu.com/p/625879916(仅取健康部分)\"",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-101-情绪价值三层.md"
+ },
+ {
+  "id": "method-102",
+  "title": "幽默三板斧:自嘲、曲解、联想",
+  "tags": [
+   "核心方法",
+   "幽默",
+   "自嘲",
+   "曲解"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "方法论",
+  "source": "\"调研/02-聊天技巧与话术.md;知乎 https://zhuanlan.zhihu.com/p/413707857;香港01;新华网\"",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-102-幽默三板斧.md"
+ },
+ {
+  "id": "method-103",
+  "title": "升温节奏:小步试探-看反馈-调整",
+  "tags": [
+   "核心方法",
+   "升温节奏",
+   "试探",
+   "反馈循环",
+   "话题递进"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "方法论",
+  "source": "\"调研/02-聊天技巧与话术.md;知乎 https://zhuanlan.zhihu.com/p/2010555039048037456;知乎 https://zhuanlan.zhihu.com/p/37321769\"",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-103-升温节奏与试探反馈.md"
+ },
+ {
+  "id": "method-104",
+  "title": "会聊天的 10 件小事(通用素养清单)",
+  "tags": [
+   "核心方法",
+   "聊天素养",
+   "倾听",
+   "好奇心"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "清单",
+  "source": "\"调研/02-聊天技巧与话术.md;新华网 http://www.xinhuanet.com/politics/2016-08/04/c_129204590.htm\"",
+  "confidence": "高",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-104-会聊天十件小事.md"
+ },
+ {
+  "id": "script-001",
+  "title": "话术:夸人(细节放大与真诚认可)",
+  "tags": [
+   "夸人",
+   "认可",
+   "情绪价值",
+   "职场",
+   "日常关系"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "约会",
+   "确定关系"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/万能夸人的话术技巧:真诚认可的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-001-夸人话术-真诚认可.md"
+ },
+ {
+  "id": "script-002",
+  "title": "话术:接话(先接情绪,再延话题)",
+  "tags": [
+   "接话",
+   "倾听",
+   "共情",
+   "话题延续"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/巧妙接话技巧:让沟通更流畅的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-002-接话技巧-先接情绪再延话题.md"
+ },
+ {
+  "id": "script-003",
+  "title": "话术:情绪价值回应(受挫/焦虑/开心/吐槽/迷茫五场景)",
+  "tags": [
+   "情绪价值",
+   "共情",
+   "安慰",
+   "倾听",
+   "回应"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/为他人提供情绪价值:温暖且有效的回应指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-003-情绪价值回应-五大场景.md"
+ },
+ {
+  "id": "script-004",
+  "title": "话术:吵架与理性冲突处理(我句式+聚焦问题)",
+  "tags": [
+   "冲突修复",
+   "吵架",
+   "沟通",
+   "边界表达"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/万能吵架技巧:理性冲突处理指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-004-吵架与理性冲突处理.md"
+ },
+ {
+  "id": "script-005",
+  "title": "话术:化解尴尬与轻松救场",
+  "tags": [
+   "救场",
+   "尴尬",
+   "自嘲",
+   "冷场",
+   "社交"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "约会"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/化解尴尬:轻松救场的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-005-化解尴尬与轻松救场.md"
+ },
+ {
+  "id": "script-006",
+  "title": "话术:废话文学回复(轻松应对与软性回避)",
+  "tags": [
+   "废话文学",
+   "幽默",
+   "回避敏感话题",
+   "缓和气氛"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/废话文学回复指南:轻松应对各类场景.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "02-话术库",
+  "file": "02-话术库/script-006-废话文学回复指南.md"
+ },
+ {
+  "id": "script-007",
+  "title": "话术:高情商拒绝(体面护边界)",
+  "tags": [
+   "拒绝",
+   "边界",
+   "断舍离",
+   "人际维护"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/高情商拒绝他人:体面护边界的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-007-高情商拒绝-体面护边界.md"
+ },
+ {
+  "id": "script-008",
+  "title": "话术:聊天化被动为主动(分享+提问引导互动)",
+  "tags": [
+   "聊天主动权",
+   "开放式提问",
+   "话题延伸",
+   "破冰"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/聊天化被动为主动:引导互动的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-008-聊天化被动为主动.md"
+ },
+ {
+  "id": "script-009",
+  "title": "话术:实战编排器(一句回复到后续分支,12场景三档句)",
+  "tags": [
+   "聊天话术",
+   "邀约",
+   "暧昧",
+   "关系推进",
+   "分支应对"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/实战话术编排器:从一句回复到后续分支.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-009-实战话术编排器-12场景三档句.md"
+ },
+ {
+  "id": "script-010",
+  "title": "话术:场景感开场与三色灯校准(从接话到推进)",
+  "tags": [
+   "开场",
+   "松弛感",
+   "社交校准",
+   "调情分寸",
+   "推进节奏"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/场景感、松弛感与社交校准:从接话到关系推进.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-010-场景感开场与三色灯校准.md"
+ },
+ {
+  "id": "script-011",
+  "title": "话术:主动表达与第一次见面(邀约/好感/接触)",
+  "tags": [
+   "主动表达",
+   "邀约",
+   "第一次见面",
+   "肢体接触",
+   "好感表达"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/主动表达、第一次见面与自然接触.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-011-主动表达与第一次见面.md"
+ },
+ {
+  "id": "script-012",
+  "title": "话术:关系投入失衡(降级投入与体面退出)",
+  "tags": [
+   "投入失衡",
+   "互惠判断",
+   "降级投入",
+   "止损",
+   "分手沟通"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "暧昧",
+   "确定关系",
+   "冲突修复",
+   "分手止损"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/关系投入失衡:互惠判断、降级投入与退出决策.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-012-关系投入失衡与体面退出.md"
+ },
+ {
+  "id": "script-013",
+  "title": "话术:表达逻辑性(总分总/PREP/时间线三框架)",
+  "tags": [
+   "结构化表达",
+   "汇报",
+   "说服",
+   "逻辑衔接"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "约会",
+   "确定关系"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/提升表达逻辑性:从混乱到清晰的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-013-表达逻辑性三框架.md"
+ },
+ {
+  "id": "script-014",
+  "title": "话术:提高气场(自我稳定与温和而坚定)",
+  "tags": [
+   "气场",
+   "边界",
+   "自信表达",
+   "应对质疑"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "冲突修复"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/提高气场:从内到外的力量感塑造指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-014-提高气场-温和而坚定.md"
+ },
+ {
+  "id": "script-015",
+  "title": "话术:拓展与维护人脉(价值匹配+具体连接)",
+  "tags": [
+   "人脉",
+   "社交连接",
+   "破冰",
+   "求助",
+   "关系维护"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/有效拓展人脉:从建立到维护的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-015-拓展与维护人脉.md"
+ },
+ {
+  "id": "script-016",
+  "title": "话术:托人办事(3要素表达+给拒绝余地)",
+  "tags": [
+   "求助",
+   "托人办事",
+   "人情",
+   "回报承诺"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/托人办事的高效话术指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-016-托人办事高效话术.md"
+ },
+ {
+  "id": "script-017",
+  "title": "话术:职场向上沟通(接任务/同步/汇报/请示/提建议)",
+  "tags": [
+   "职场沟通",
+   "向上管理",
+   "汇报",
+   "信任建立"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/获得领导青睐:从价值匹配到信任建立的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-017-职场向上沟通-领导信任.md"
+ },
+ {
+  "id": "script-018",
+  "title": "话术:被孤立破局(诊断类型+低门槛互动+澄清)",
+  "tags": [
+   "被孤立",
+   "破冰",
+   "澄清误解",
+   "自我调适",
+   "职场人际"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "冲突修复"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/被孤立如何破局:从自我调适到建立连接的实用指南.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-018-被孤立破局话术.md"
+ },
+ {
+  "id": "script-019",
+  "title": "话术:自然流三段式与伦理转译(替代冷读与套路)",
+  "tags": [
+   "自然流",
+   "伦理转译",
+   "冷读替代",
+   "邀请式表达"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "话术示例",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/自然流、内在状态与结构化互动:伦理能力转译.md 及 公开表达案例的伦理转译.md\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "02-话术库",
+  "file": "02-话术库/script-019-自然流与伦理转译话术.md"
+ },
+ {
+  "id": "script-020",
+  "title": "清单:实战话术使用分级(A/B/C)与红线",
+  "tags": [
+   "使用分级",
+   "伦理边界",
+   "话术使用",
+   "风险控制"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "冲突修复",
+   "分手止损"
+  ],
+  "type": "清单",
+  "source": "\"https://github.com/shengjidaguai-china/goutoujunshi ｜ references/practical/00-导读与使用分级.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-020-话术使用分级与红线.md"
+ },
+ {
+  "id": "script-100",
+  "title": "开场白句式库(按关系阶段)",
+  "tags": [
+   "话术库",
+   "开场白",
+   "句式",
+   "破冰"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "话术示例",
+  "source": "\"调研/02-聊天技巧与话术.md;知乎 https://zhuanlan.zhihu.com/p/37321769;搜狐 https://www.sohu.com/a/766441054_121908323\"",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-100-开场白句式库.md"
+ },
+ {
+  "id": "script-101",
+  "title": "万用话题库与高频场景回复",
+  "tags": [
+   "话术库",
+   "话题库",
+   "万用话题",
+   "场景回复"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "话术示例",
+  "source": "\"调研/02-聊天技巧与话术.md;Metavoice;知乎 https://zhuanlan.zhihu.com/p/461286578\"",
+  "confidence": "高",
+  "board": "02-话术库",
+  "file": "02-话术库/script-101-万用话题与场景回复.md"
+ },
+ {
+  "id": "persona-001",
+  "title": "人群画像:精神小妹(16-25,快手/土味文化圈)",
+  "tags": [
+   "人群画像",
+   "精神小妹",
+   "亚文化",
+   "聊天策略"
+  ],
+  "audience": [
+   "精神小妹"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "清单",
+  "source": "\"调研/03-人群画像.md;界面新闻 https://www.jiemian.com/article/4223083.html;虎嗅 https://m.huxiu.com/article/4867021.html\"",
+  "confidence": "中",
+  "board": "03-人群画像",
+  "file": "03-人群画像/persona-001-精神小妹.md"
+ },
+ {
+  "id": "persona-002",
+  "title": "人群画像:大学生女性(18-24,Z世代/00后)",
+  "tags": [
+   "人群画像",
+   "大学生",
+   "Z世代",
+   "聊天策略",
+   "搭子文化"
+  ],
+  "audience": [
+   "大学生"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"调研/03-人群画像.md;人民论坛 http://paper.people.com.cn/rmlt/pc/content/202509/16/content_30112893.html;光明网 https://news.gmw.cn/2022-02-21/content_35531131.htm\"",
+  "confidence": "高",
+  "board": "03-人群画像",
+  "file": "03-人群画像/persona-002-大学生18-24.md"
+ },
+ {
+  "id": "persona-003",
+  "title": "人群画像:都市青年/初入职场女性(24-32)",
+  "tags": [
+   "人群画像",
+   "都市青年",
+   "职场女性",
+   "聊天策略",
+   "边界感"
+  ],
+  "audience": [
+   "都市青年"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"调研/03-人群画像.md;HK01 https://www.hk01.com/知性女生/653963/;知乎 https://zhuanlan.zhihu.com/p/503229005\"",
+  "confidence": "高",
+  "board": "03-人群画像",
+  "file": "03-人群画像/persona-003-都市青年24-32.md"
+ },
+ {
+  "id": "persona-004",
+  "title": "人群画像:轻熟龄女性(32-40)",
+  "tags": [
+   "人群画像",
+   "轻熟龄",
+   "中女",
+   "聊天策略",
+   "深度对话"
+  ],
+  "audience": [
+   "轻熟龄"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"调研/03-人群画像.md;意略明《读懂中女》https://cn.illuminera.com/1438.html;界面新闻 https://www.jiemian.com/article/2514566.html\"",
+  "confidence": "高",
+  "board": "03-人群画像",
+  "file": "03-人群画像/persona-004-轻熟龄32-40.md"
+ },
+ {
+  "id": "persona-005",
+  "title": "通用雷区与翻车案例库(全人群共性)",
+  "tags": [
+   "人群画像",
+   "通用雷区",
+   "查户口式提问",
+   "反面案例"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "清单",
+  "source": "\"调研/03-人群画像.md;中新网124人相亲雷区调查 https://www.chinanews.com.cn/m/sh/2017/08-06/8297006.shtml;知乎 https://zhuanlan.zhihu.com/p/503229005\"",
+  "confidence": "高",
+  "board": "03-人群画像",
+  "file": "03-人群画像/persona-005-通用雷区与翻车案例.md"
+ },
+ {
+  "id": "persona-006",
+  "title": "人群×话题适配速查表",
+  "tags": [
+   "人群画像",
+   "速查表",
+   "话题适配"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"调研/03-人群画像.md(由其来源综合推断)\"",
+  "confidence": "中",
+  "board": "03-人群画像",
+  "file": "03-人群画像/persona-006-人群话题适配速查表.md"
+ },
+ {
+  "id": "astro-001",
+  "title": "星座聊天总览:四象限框架与使用说明",
+  "tags": [
+   "星座",
+   "四象限",
+   "破冰",
+   "娱乐化参考"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "方法论",
+  "source": "\"调研/04-性格与星座攻略.md;udn https://udn.com/news/story/7268/9345647;etnet https://www.etnet.com.hk/www/tc/lifestyle/261980/\"",
+  "confidence": "低",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-001-星座总览与四象限.md"
+ },
+ {
+  "id": "astro-002",
+  "title": "火象星座攻略:白羊、狮子、射手",
+  "tags": [
+   "星座",
+   "火象",
+   "白羊座",
+   "狮子座",
+   "射手座",
+   "娱乐化参考"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "清单",
+  "source": "\"调研/04-性格与星座攻略.md;新浪星座 https://k.sina.com.cn/article_1876966787_6fe03d8302701kvxe.html;etnet https://www.etnet.com.hk/www/tc/lifestyle/261980/\"",
+  "confidence": "低",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-002-火象星座攻略.md"
+ },
+ {
+  "id": "astro-003",
+  "title": "土象星座攻略:金牛、处女、摩羯",
+  "tags": [
+   "星座",
+   "土象",
+   "金牛座",
+   "处女座",
+   "摩羯座",
+   "娱乐化参考"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "清单",
+  "source": "\"调研/04-性格与星座攻略.md;Yahoo奇摩星座 https://tw.news.yahoo.com/;etnet https://www.etnet.com.hk/www/tc/lifestyle/261980/\"",
+  "confidence": "低",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-003-土象星座攻略.md"
+ },
+ {
+  "id": "astro-004",
+  "title": "风象星座攻略:双子、天秤、水瓶",
+  "tags": [
+   "星座",
+   "风象",
+   "双子座",
+   "天秤座",
+   "水瓶座",
+   "娱乐化参考"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "清单",
+  "source": "\"调研/04-性格与星座攻略.md;udn https://udn.com/news/story/7268/9345647;etnet https://www.etnet.com.hk/www/tc/lifestyle/261980/\"",
+  "confidence": "低",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-004-风象星座攻略.md"
+ },
+ {
+  "id": "astro-005",
+  "title": "水象星座攻略:巨蟹、天蝎、双鱼",
+  "tags": [
+   "星座",
+   "水象",
+   "巨蟹座",
+   "天蝎座",
+   "双鱼座",
+   "娱乐化参考"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "清单",
+  "source": "\"调研/04-性格与星座攻略.md;etnet https://www.etnet.com.hk/www/tc/lifestyle/261980/;新浪星座 https://k.sina.com.cn/article_1876966787_6fe03d8302701kvxe.html\"",
+  "confidence": "低",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-005-水象星座攻略.md"
+ },
+ {
+  "id": "astro-006",
+  "title": "MBTI:聊天中识别对方类型的四维观察法",
+  "tags": [
+   "MBTI",
+   "性格识别",
+   "沟通风格",
+   "四维观察"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "方法论",
+  "source": "\"调研/04-性格与星座攻略.md;lucaluo https://www.lucaluo.com/how-to-help-others-typing;Reddit r/mbti\"",
+  "confidence": "中",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-006-MBTI四维识别法.md"
+ },
+ {
+  "id": "astro-007",
+  "title": "MBTI:四大气质组沟通适配(NT/NF/SJ/SP)",
+  "tags": [
+   "MBTI",
+   "气质组",
+   "沟通适配",
+   "NT",
+   "NF",
+   "SJ",
+   "SP"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "方法论",
+  "source": "\"调研/04-性格与星座攻略.md;vocus https://vocus.cc/article/683fb7bdfd8978000131c9b4;Manager Today https://www.managertoday.com.tw/articles/view/65508;16Personalities\"",
+  "confidence": "中",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-007-MBTI气质组适配.md"
+ },
+ {
+  "id": "astro-008",
+  "title": "MBTI:十六型沟通速查表",
+  "tags": [
+   "MBTI",
+   "16型",
+   "速查表",
+   "沟通风格"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"调研/04-性格与星座攻略.md;Manager Today https://www.managertoday.com.tw/articles/view/65508;vocus https://vocus.cc/article/683fb7bdfd8978000131c9b4\"",
+  "confidence": "中",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-008-MBTI十六型速查.md"
+ },
+ {
+  "id": "astro-009",
+  "title": "MBTI:代表类型详述(INFJ/ENFP/INTJ/ESFP)",
+  "tags": [
+   "MBTI",
+   "INFJ",
+   "ENFP",
+   "INTJ",
+   "ESFP",
+   "沟通详述"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "方法论",
+  "source": "\"调研/04-性格与星座攻略.md;vocus https://vocus.cc/article/683fb7bdfd8978000131c9b4;16Personalities\"",
+  "confidence": "中",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-009-MBTI代表类型详述.md"
+ },
+ {
+  "id": "astro-010",
+  "title": "DISC 四型沟通策略(虎/孔雀/无尾熊/猫头鹰)",
+  "tags": [
+   "DISC",
+   "性格类型",
+   "沟通策略"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "清单",
+  "source": "\"调研/04-性格与星座攻略.md;Cheers https://www.cheers.com.tw/article/article.action?id=5101780;newsveg https://newsveg.tw/blog/75175\"",
+  "confidence": "中",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-010-DISC四型沟通.md"
+ },
+ {
+  "id": "astro-011",
+  "title": "内向 vs 外向:能量模型与聊天技巧",
+  "tags": [
+   "内向",
+   "外向",
+   "能量模型",
+   "聊天技巧"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "方法论",
+  "source": "\"调研/04-性格与星座攻略.md;womany https://womany.net/read/article/22889;知乎讨论\"",
+  "confidence": "高",
+  "board": "04-性格星座",
+  "file": "04-性格星座/astro-011-内外向能量模型.md"
+ },
+ {
+  "id": "scene-001",
+  "title": "场景:线上社交软件破冰(第一句话怎么发)",
+  "tags": [
+   "场景流程",
+   "初识",
+   "破冰",
+   "社交软件",
+   "开场白"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识"
+  ],
+  "type": "案例",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (MIT) skill/references/examples-library.md; https://github.com/Stanley-baby/love-expert (MIT) references/话术模板.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-001-线上软件破冰场景.md"
+ },
+ {
+  "id": "scene-002",
+  "title": "场景:现实场合搭讪(教室/职场/咖啡店/活动)",
+  "tags": [
+   "场景流程",
+   "初识",
+   "搭讪",
+   "线下",
+   "开场白"
+  ],
+  "audience": [
+   "大学生",
+   "都市青年",
+   "通用"
+  ],
+  "stage": [
+   "初识"
+  ],
+  "type": "案例",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (MIT) skill/references/examples-library.md; https://github.com/Stanley-baby/love-expert (MIT) references/话术模板.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-002-现实场合搭讪场景.md"
+ },
+ {
+  "id": "scene-003",
+  "title": "场景:开场成功后,话题怎么延续不冷场",
+  "tags": [
+   "场景流程",
+   "初识",
+   "延续话题",
+   "自我暴露",
+   "推进节奏"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "案例",
+  "source": "\"https://github.com/tomwong001/qingsheng-skill (MIT) skill/references/examples-library.md; skill/references/stages.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-003-开场后延续话题场景.md"
+ },
+ {
+  "id": "scene-004",
+  "title": "场景:关系全周期路线图(从初识到确定关系的阶段地图)",
+  "tags": [
+   "场景流程",
+   "阶段诊断",
+   "推进路线",
+   "方法论"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls (MIT) .claude/skills/dating-coach/references/lifecycle.md; https://github.com/tomwong001/qingsheng-skill (MIT) skill/references/stages.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-004-关系全周期路线图.md"
+ },
+ {
+  "id": "scene-005",
+  "title": "场景:日常聊天高情商接话(对方分享时怎么回)",
+  "tags": [
+   "场景流程",
+   "熟悉",
+   "接话",
+   "情绪价值",
+   "共情"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "案例",
+  "source": "\"https://github.com/Stanley-baby/love-expert (MIT) references/话术模板.md; https://github.com/tomwong001/qingsheng-skill (MIT) skill/references/examples-library.md\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-005-日常聊天高情商接话场景.md"
+ },
+ {
+  "id": "scene-006",
+  "title": "暧昧升温场景:拉扯与调侃的分寸",
+  "tags": [
+   "场景",
+   "暧昧",
+   "升温",
+   "调侃",
+   "拉扯"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "暧昧"
+  ],
+  "type": "案例",
+  "source": "\"github.com/tomwong001/qingsheng-skill skill/references/stages.md 阶段3 + examples-library.md(已筛选,剔除操控类样本)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-006-暧昧升温与拉扯分寸.md"
+ },
+ {
+  "id": "scene-007",
+  "title": "邀约场景:从线上到线下 + 被拒后怎么接",
+  "tags": [
+   "场景",
+   "邀约",
+   "线上转线下",
+   "被拒接话"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "邀约"
+  ],
+  "type": "案例",
+  "source": "\"github.com/tomwong001/qingsheng-skill skill/references/stages.md 阶段4 + examples-library.md 阶段4(已筛选)\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-007-邀约与被拒接话.md"
+ },
+ {
+  "id": "scene-008",
+  "title": "约会实战场景:节奏、变故与边界",
+  "tags": [
+   "场景",
+   "约会",
+   "边界",
+   "同意"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "约会"
+  ],
+  "type": "案例",
+  "source": "\"github.com/tomwong001/qingsheng-skill skill/references/stages.md 阶段5 + examples-library.md(已筛选,强化边界样本)\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-008-约会实战与边界.md"
+ },
+ {
+  "id": "scene-009",
+  "title": "确立关系与吵架化解场景",
+  "tags": [
+   "场景",
+   "确立关系",
+   "吵架",
+   "冲突修复",
+   "测试应对"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "案例",
+  "source": "\"github.com/tomwong001/qingsheng-skill skill/references/stages.md 阶段7 + examples-library.md(已筛选)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-009-确立关系与吵架化解.md"
+ },
+ {
+  "id": "scene-010",
+  "title": "冷场与已读不回:冷激活场景",
+  "tags": [
+   "场景",
+   "冷场",
+   "已读不回",
+   "冷激活",
+   "重新开场"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "冲突修复"
+  ],
+  "type": "案例",
+  "source": "\"github.com/tomwong001/qingsheng-skill skill/references/recovery-playbook.md 模式A + examples-library.md(已筛选)\"",
+  "license": "MIT",
+  "confidence": "高",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-010-冷场与已读不回冷激活.md"
+ },
+ {
+  "id": "scene-011",
+  "title": "分手挽回与体面退出场景",
+  "tags": [
+   "场景",
+   "挽回",
+   "分手",
+   "止损",
+   "体面退出"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "分手止损"
+  ],
+  "type": "案例",
+  "source": "\"github.com/tomwong001/qingsheng-skill skill/references/recovery-playbook.md 模式B(已筛选)+ 亲密边界条款\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "05-场景流程",
+  "file": "05-场景流程/scene-011-挽回与体面退出.md"
+ },
+ {
+  "id": "risk-001",
+  "title": "诈骗级识别信号清单(14 条 + 组合判断)",
+  "tags": [
+   "风险识别",
+   "杀猪盘",
+   "诈骗信号",
+   "网恋"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "清单",
+  "source": "\"调研/05-风险识别与边界.md;香港警察;北京交警;壹心理;知乎\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-001-诈骗级信号清单.md"
+ },
+ {
+  "id": "risk-002",
+  "title": "典型套路对照表(8 类 + 话术原文)",
+  "tags": [
+   "风险识别",
+   "套路",
+   "杀猪盘话术",
+   "送礼诈骗"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"调研/05-风险识别与边界.md;济南公安杀猪盘10句话术 http://jnga.jinan.gov.cn/col24322/art/2019/art_24322_3077019.html;中国长安网;新华网\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-002-典型套路对照表.md"
+ },
+ {
+  "id": "risk-003",
+  "title": "礼貌拒绝与止损话术(9 个场景)",
+  "tags": [
+   "拒绝话术",
+   "止损",
+   "高情商拒绝",
+   "话术示例"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "分手止损"
+  ],
+  "type": "话术示例",
+  "source": "\"调研/05-风险识别与边界.md;知乎高情商拒绝六步法;MBA智库\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-003-拒绝与止损话术.md"
+ },
+ {
+  "id": "risk-004",
+  "title": "健康边界:正常交往中的消费分寸",
+  "tags": [
+   "健康边界",
+   "消费分寸",
+   "恋爱消费",
+   "AA制"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"调研/05-风险识别与边界.md;搜狐;人民网;壹心理 https://www.xinli001.com/info/100485489\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-004-健康消费边界.md"
+ },
+ {
+  "id": "risk-005",
+  "title": "线下见面风险:酒托/衣托/婚托识别",
+  "tags": [
+   "风险识别",
+   "酒托",
+   "衣托",
+   "婚托",
+   "线下见面"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "邀约",
+   "约会"
+  ],
+  "type": "清单",
+  "source": "\"调研/05-风险识别与边界.md;新华网 http://www.xinhuanet.com/2021-05/25/c_1127488891.htm;上海市民政局通报;解放日报\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-005-线下托识别与自保.md"
+ },
+ {
+  "id": "risk-006",
+  "title": "灰色收割模式库(上):养鱼/备胎/ATM化/示弱吸血/情绪榨取",
+  "tags": [
+   "灰色收割",
+   "养鱼",
+   "备胎",
+   "ATM化",
+   "示弱吸血",
+   "情绪价值"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "清单",
+  "source": "\"调研/10-男性被操控图谱.md;DealMoon https://www.dealmoon.com/post/2412059;知乎;壹心理\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-006-灰色收割模式上.md"
+ },
+ {
+  "id": "risk-007",
+  "title": "灰色收割模式库(下):冷热拿捏/考验包装/绿茶使唤/亲密度解锁",
+  "tags": [
+   "灰色收割",
+   "冷热交替",
+   "考验诚意",
+   "绿茶",
+   "消费诱导"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "清单",
+  "source": "\"调研/10-男性被操控图谱.md;知乎 https://zhuanlan.zhihu.com/p/492252482;解放日报聊手调查;DealMoon\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-007-灰色收割模式下.md"
+ },
+ {
+  "id": "risk-008",
+  "title": "判断标准:她是喜欢你,还是在收割你",
+  "tags": [
+   "判断标准",
+   "双向性测试",
+   "试金石",
+   "收钱分类"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "清单",
+  "source": "\"调研/10-男性被操控图谱.md;腾讯新闻 https://news.qq.com/rain/a/20260421A06AKP00;网易;知乎\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-008-判断标准与试金石.md"
+ },
+ {
+  "id": "risk-009",
+  "title": "应对与退出:降级、止损、沉没成本自救",
+  "tags": [
+   "应对策略",
+   "止损",
+   "降级",
+   "沉没成本",
+   "心态修复"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "暧昧",
+   "确定关系",
+   "分手止损"
+  ],
+  "type": "方法论",
+  "source": "\"调研/10-男性被操控图谱.md;壹心理;知乎;DealMoon\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-009-应对与退出.md"
+ },
+ {
+  "id": "risk-010",
+  "title": "真实案例要点摘编(8 例)",
+  "tags": [
+   "案例",
+   "ATM",
+   "灰色收割",
+   "真实经历"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "分手止损"
+  ],
+  "type": "案例",
+  "source": "\"调研/10-男性被操控图谱.md;知乎;壹心理;解放日报;DealMoon;凤凰网\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-010-真实案例摘编.md"
+ },
+ {
+  "id": "tactic-001",
+  "title": "操控图谱:PUA 简史与使用说明",
+  "tags": [
+   "操控图谱",
+   "PUA",
+   "简史",
+   "防御"
+  ],
+  "direction": "双向",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复",
+   "分手止损"
+  ],
+  "type": "战术图谱",
+  "severity": "无",
+  "source": "\"调研/08-PUA与操控战术图谱.md;维基百科勾引社群;新京报;中新网\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-001-PUA简史与使用说明.md"
+ },
+ {
+  "id": "tactic-002",
+  "title": "战术:打压/否定(Negging)——识别与反制",
+  "tags": [
+   "操控图谱",
+   "打压",
+   "否定",
+   "negging",
+   "自尊操纵"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;中新网受害者案例;重庆新闻网;百度百科PUA词条\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-002-打压否定.md"
+ },
+ {
+  "id": "tactic-003",
+  "title": "战术:推拉(Push-Pull)——识别与反制",
+  "tags": [
+   "操控图谱",
+   "推拉",
+   "忽冷忽热",
+   "情绪落差"
+  ],
+  "direction": "双向",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "战术图谱",
+  "severity": "灰色",
+  "source": "\"调研/08-PUA与操控战术图谱.md;中新网暗访课程内容;心理学科普\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-003-推拉.md"
+ },
+ {
+  "id": "tactic-004",
+  "title": "战术:冷读(Cold Reading)——识别与反制",
+  "tags": [
+   "操控图谱",
+   "冷读",
+   "巴纳姆效应",
+   "被理解错觉"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "战术图谱",
+  "severity": "灰色",
+  "source": "\"调研/08-PUA与操控战术图谱.md;知乎 https://zhuanlan.zhihu.com/p/83525402\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-004-冷读.md"
+ },
+ {
+  "id": "tactic-005",
+  "title": "战术:预选(Preselection)——识别与反制",
+  "tags": [
+   "操控图谱",
+   "预选",
+   "社会认证",
+   "嫉妒制造"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "战术图谱",
+  "severity": "灰色",
+  "source": "\"调研/08-PUA与操控战术图谱.md;维基百科勾引社群\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-005-预选.md"
+ },
+ {
+  "id": "tactic-006",
+  "title": "战术:冻结/抽离/冷暴力——识别与反制",
+  "tags": [
+   "操控图谱",
+   "冷暴力",
+   "冻结",
+   "惩罚性失联"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;中新网;壹心理\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-006-冻结冷暴力.md"
+ },
+ {
+  "id": "tactic-007",
+  "title": "战术:情绪过山车/爱轰炸—贬低循环——识别与反制",
+  "tags": [
+   "操控图谱",
+   "爱轰炸",
+   "情绪过山车",
+   "NPD",
+   "创伤性联结"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;知乎NPD专栏;壹心理\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-007-情绪过山车与爱轰炸.md"
+ },
+ {
+  "id": "tactic-008",
+  "title": "战术:间歇性强化——识别与反制(忽冷忽热的成瘾机制)",
+  "tags": [
+   "操控图谱",
+   "间歇性强化",
+   "斯金纳箱",
+   "成瘾机制",
+   "忽冷忽热"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "分手止损"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;壹心理 https://www.xinli001.com/index.php/info/100500128\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-008-间歇性强化.md"
+ },
+ {
+  "id": "tactic-009",
+  "title": "战术:煤气灯效应(Gaslighting)——识别与反制",
+  "tags": [
+   "操控图谱",
+   "煤气灯",
+   "gaslighting",
+   "记忆扭曲",
+   "精神虐待"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "战术图谱",
+  "severity": "违法边缘",
+  "source": "\"调研/08-PUA与操控战术图谱.md;维基百科煤气灯效应;Harper's Bazaar\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-009-煤气灯效应.md"
+ },
+ {
+  "id": "tactic-010",
+  "title": "战术:服从性测试——识别与反制",
+  "tags": [
+   "操控图谱",
+   "服从性测试",
+   "底线试探",
+   "登门槛效应"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;壹心理 https://m.xinli001.com/qa/100845648;维基百科包丽案\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-010-服从性测试.md"
+ },
+ {
+  "id": "tactic-011",
+  "title": "战术:虚构时间限制——识别与反制",
+  "tags": [
+   "操控图谱",
+   "虚构时间限制",
+   "紧迫感",
+   "逼单话术"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "战术图谱",
+  "severity": "灰色",
+  "source": "\"调研/08-PUA与操控战术图谱.md;英文维基/PUA术语资料;Reddit讨论\"",
+  "confidence": "中",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-011-虚构时间限制.md"
+ },
+ {
+  "id": "tactic-012",
+  "title": "战术:镜像模仿——识别与反制",
+  "tags": [
+   "操控图谱",
+   "镜像",
+   "mirroring",
+   "灵魂伴侣错觉",
+   "相似性"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "战术图谱",
+  "severity": "灰色",
+  "source": "\"调研/08-PUA与操控战术图谱.md;PsychCentral https://psychcentral.com/blog/recovering-narcissist/2018/12/5-pick-up-artist-techniques-narcisssociopaths-and-psychopaths-players-use-to-unsettle-you\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-012-镜像模仿.md"
+ },
+ {
+  "id": "tactic-013",
+  "title": "战术:贬低抬高交替(胡萝卜加大棒)——识别与反制",
+  "tags": [
+   "操控图谱",
+   "贬低抬高",
+   "胡萝卜加大棒",
+   "讨好模式"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;重庆新闻网;中新网彭凯平总结\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-013-贬低抬高交替.md"
+ },
+ {
+  "id": "tactic-014",
+  "title": "战术:三角测量——识别与反制",
+  "tags": [
+   "操控图谱",
+   "三角测量",
+   "triangulation",
+   "嫉妒制造",
+   "备胎展示"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;adaymag https://www.adaymag.com/2025/03/21/triangulation-pua-relationship-tricks.html;知乎NPD专栏\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-014-三角测量.md"
+ },
+ {
+  "id": "tactic-015",
+  "title": "战术:孤立(切断社交支持)——识别与反制",
+  "tags": [
+   "操控图谱",
+   "孤立",
+   "社交隔离",
+   "控制依赖"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "战术图谱",
+  "severity": "违法边缘",
+  "source": "\"调研/08-PUA与操控战术图谱.md;中新网受害者李琳案;维基百科煤气灯效应\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-015-孤立.md"
+ },
+ {
+  "id": "tactic-016",
+  "title": "战术:人设包装/虚假高价值展示——识别与反制",
+  "tags": [
+   "操控图谱",
+   "人设包装",
+   "虚假身份",
+   "五步陷阱",
+   "光环效应"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;腾讯新闻五步陷阱;新京报;天目新闻\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-016-人设包装.md"
+ },
+ {
+  "id": "tactic-017",
+  "title": "战术:自杀/自伤威胁与死亡鼓励——识别与应对",
+  "tags": [
+   "操控图谱",
+   "情感勒索",
+   "自杀威胁",
+   "危机干预"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "确定关系",
+   "冲突修复",
+   "分手止损"
+  ],
+  "type": "战术图谱",
+  "severity": "违法边缘",
+  "source": "\"调研/08-PUA与操控战术图谱.md;维基百科包丽案;新京报;中新网\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-017-自杀威胁与死亡鼓励.md"
+ },
+ {
+  "id": "tactic-018",
+  "title": "女性对男性使用的高频操控变体",
+  "tags": [
+   "操控图谱",
+   "男性受害者",
+   "示弱吸血",
+   "沉没成本",
+   "激将"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "分手止损"
+  ],
+  "type": "战术图谱",
+  "severity": "有害",
+  "source": "\"调研/08-PUA与操控战术图谱.md;新浪;Threads讨论;壹心理\"",
+  "confidence": "中",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-018-女性对男性变体.md"
+ },
+ {
+  "id": "tactic-019",
+  "title": "严重性分级与\"分寸三问\"",
+  "tags": [
+   "操控图谱",
+   "分级",
+   "分寸",
+   "自查"
+  ],
+  "direction": "双向",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复",
+   "分手止损"
+  ],
+  "type": "清单",
+  "source": "\"调研/08-PUA与操控战术图谱.md(综合媒体报道与心理学平台)\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-019-严重性分级与分寸三问.md"
+ },
+ {
+  "id": "tactic-020",
+  "title": "反制八原则与快速识别清单",
+  "tags": [
+   "操控图谱",
+   "反制原则",
+   "识别清单",
+   "自查"
+  ],
+  "direction": "双向",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复",
+   "分手止损"
+  ],
+  "type": "清单",
+  "source": "\"调研/08-PUA与操控战术图谱.md;知乎反精神控制指南;壹心理\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-020-反制八原则与识别清单.md"
+ },
+ {
+  "id": "tactic-021",
+  "title": "求助资源清单(心理/法律/危机干预)",
+  "tags": [
+   "操控图谱",
+   "求助资源",
+   "热线",
+   "危机干预",
+   "法律援助"
+  ],
+  "direction": "双向",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "确定关系",
+   "冲突修复",
+   "分手止损"
+  ],
+  "type": "清单",
+  "source": "\"调研/08-PUA与操控战术图谱.md;知乎心理援助热线汇总 https://zhuanlan.zhihu.com/p/657385941\"",
+  "confidence": "高",
+  "board": "07-操控图谱",
+  "file": "07-操控图谱/tactic-021-求助资源.md"
+ },
+ {
+  "id": "book-001",
+  "title": "书摘:《把妹达人》(The Game)",
+  "tags": [
+   "书籍要点",
+   "PUA",
+   "亚文化",
+   "纪实"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《把妹达人》尼尔·施特劳斯,2005;豆瓣/Reddit 书评交叉核对\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-001-把妹达人.md"
+ },
+ {
+  "id": "book-002",
+  "title": "书摘:《迷男方法》(The Mystery Method)",
+  "tags": [
+   "书籍要点",
+   "PUA",
+   "M3模型",
+   "技术流"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《迷男方法》谜男,2007;书评与社区讨论交叉核对\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-002-迷男方法.md"
+ },
+ {
+  "id": "book-003",
+  "title": "书摘:《The Natural》(天生好手)",
+  "tags": [
+   "书籍要点",
+   "PUA",
+   "自然流",
+   "状态管理"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);The Natural, Richard LaRuina, 2012;Goodreads 书评交叉核对\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-003-The-Natural.md"
+ },
+ {
+  "id": "book-004",
+  "title": "书摘:《影响力》(Influence)",
+  "tags": [
+   "书籍要点",
+   "影响力",
+   "六原则",
+   "社会心理学"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《影响力》罗伯特·西奥迪尼,1984;续作《先发影响力》\"",
+  "confidence": "高",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-004-影响力.md"
+ },
+ {
+  "id": "book-005",
+  "title": "书摘:《亲密关系》(罗兰·米勒)",
+  "tags": [
+   "书籍要点",
+   "亲密关系",
+   "依恋",
+   "沟通",
+   "戈特曼"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《亲密关系》罗兰·米勒,第6版豆瓣9.2分\"",
+  "confidence": "高",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-005-亲密关系米勒.md"
+ },
+ {
+  "id": "book-006",
+  "title": "书摘:《依恋》(Attached)",
+  "tags": [
+   "书籍要点",
+   "依恋理论",
+   "焦虑型",
+   "回避型",
+   "安全型"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《依恋》阿米尔·莱文、瑞秋·赫勒(中文版亦译《关系的重建》)\"",
+  "confidence": "高",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-006-依恋.md"
+ },
+ {
+  "id": "book-007",
+  "title": "书摘:《社会性动物》(阿伦森)",
+  "tags": [
+   "书籍要点",
+   "社会心理学",
+   "曝光效应",
+   "增益效应",
+   "认知失调"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《社会性动物》埃利奥特·阿伦森\"",
+  "confidence": "高",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-007-社会性动物.md"
+ },
+ {
+  "id": "book-008",
+  "title": "书摘:《非暴力沟通》",
+  "tags": [
+   "书籍要点",
+   "非暴力沟通",
+   "四要素",
+   "倾听"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《非暴力沟通》马歇尔·卢森堡\"",
+  "confidence": "高",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-008-非暴力沟通.md"
+ },
+ {
+  "id": "book-009",
+  "title": "书摘:《爱的五种语言》",
+  "tags": [
+   "书籍要点",
+   "爱语",
+   "五种语言",
+   "付出错位"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《爱的五种语言》盖瑞·查普曼\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-009-爱的五种语言.md"
+ },
+ {
+  "id": "book-010",
+  "title": "书摘:《如何让你爱的人爱上你》",
+  "tags": [
+   "书籍要点",
+   "第一印象",
+   "相似性",
+   "语言呼应"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "约会"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/09-经典书籍要点笔记.md(原创摘要);《如何让你爱的人爱上你》莉尔·朗兹\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-010-如何让你爱的人爱上你.md"
+ },
+ {
+  "id": "book-011",
+  "title": "书摘:《魔鬼搭讪学/约会学/聊天术》三册(阮琦)",
+  "tags": [
+   "书籍要点",
+   "魔鬼咨询师",
+   "阮琦",
+   "本土",
+   "反套路"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "约会"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07-情感电子书仓库普查.md Top15#8 定位 + 公开书评常识,原创摘要\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-011-魔鬼系列阮琦.md"
+ },
+ {
+  "id": "book-012",
+  "title": "书摘:《爱的沟通》(戈特曼)",
+  "tags": [
+   "书籍要点",
+   "戈特曼",
+   "实证研究",
+   "末日四骑士",
+   "5比1"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "约会",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07-情感电子书仓库普查.md Top15#3 定位 + 戈特曼公开研究常识,原创摘要\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-012-爱的沟通戈特曼.md"
+ },
+ {
+  "id": "book-013",
+  "title": "书摘:《五步陷阱》类暗黑教材(防身视角)",
+  "tags": [
+   "书籍要点",
+   "五步陷阱",
+   "情感操控",
+   "防御",
+   "暗黑教材"
+  ],
+  "direction": "对方对我使用",
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "分手止损"
+  ],
+  "type": "书籍要点",
+  "severity": "违法边缘",
+  "source": "\"调研/07-情感电子书仓库普查.md Top15#12 定位;调研/08 简史;腾讯新闻/新京报报道。仅收录识别信息,无操作细节\"",
+  "confidence": "高",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-013-五步陷阱防身视角.md"
+ },
+ {
+  "id": "book-014",
+  "title": "情感电子书书目总表(loving-books 家族约 380 种)",
+  "tags": [
+   "书目总表",
+   "电子书仓库",
+   "分类",
+   "版权说明"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [],
+  "type": "清单",
+  "source": "\"调研/07-情感电子书仓库普查.md(书目级情报,一句话定位均为调研者原创)\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-014-书目总表.md"
+ },
+ {
+  "id": "book-015",
+  "title": "阅读优先级 Top15 与横向速查",
+  "tags": [
+   "阅读路线",
+   "优先级",
+   "速查表",
+   "书籍要点"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "清单",
+  "source": "\"调研/07-情感电子书仓库普查.md Top15;调研/09-经典书籍要点笔记.md 横向对照\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-015-阅读优先级与速查.md"
+ },
+ {
+  "id": "research-001",
+  "title": "调研 01:GitHub 可用于「情感聊天知识库」的开源项目与语料库",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/01-开源项目与语料.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-001.md"
+ },
+ {
+  "id": "research-002",
+  "title": "02 聊天技巧与话术(调研笔记)",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/02-聊天技巧与话术.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-002.md"
+ },
+ {
+  "id": "research-003",
+  "title": "03 · 人群画像:不同女性人群的聊天特点与偏好",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/03-人群画像.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-003.md"
+ },
+ {
+  "id": "research-004",
+  "title": "调研笔记 04:按性格类型/星座适配聊天方式",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/04-性格与星座攻略.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-004.md"
+ },
+ {
+  "id": "research-005",
+  "title": "05 风险识别与边界(网络交友自我保护)",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/05-风险识别与边界.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-005.md"
+ },
+ {
+  "id": "research-006",
+  "title": "06 - 知识库技术方案调研:本地化、可被 AI 接入的中文聊天知识库",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/06-知识库技术方案.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-006.md"
+ },
+ {
+  "id": "research-007",
+  "title": "07 - 情感/恋爱/PUA 电子书仓库普查(书目级情报)",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/07-情感电子书仓库普查.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-007.md"
+ },
+ {
+  "id": "research-008",
+  "title": "08 · PUA 与操控战术图谱(防御性知识)",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/08-PUA与操控战术图谱.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-008.md"
+ },
+ {
+  "id": "research-009",
+  "title": "09 经典书籍要点笔记(书籍要点板块素材)",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/09-经典书籍要点笔记.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-009.md"
+ },
+ {
+  "id": "research-010",
+  "title": "10 · 男性被操控图谱:灰色操纵与日常吸血(防御与自我保护)",
+  "tags": [
+   "调研长文"
+  ],
+  "type": "调研长文",
+  "source": "\"本地调研笔记 调研/10-男性被操控图谱.md(含全部来源URL)\"",
+  "confidence": "高",
+  "board": "10-调研报告",
+  "file": "10-调研报告/research-010.md"
+ }
+]

@@ -1,0 +1,3 @@
+# robots.txt — 拒绝所有爬虫(包括 AI 爬虫)
+User-agent: *
+Disallow: /
