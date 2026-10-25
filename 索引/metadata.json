@@ -266,6 +266,580 @@
   "file": "00-语料原文/HowToGetAlongWithGirls/claude-skill/skills/dating-coach/references/signal-patterns.md"
  },
  {
+  "id": "raw-094",
+  "title": "❤️ Relationship Coach - 恋爱关系教练",
+  "tags": [
+   "语料原文",
+   "关系教练-146课"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/cozer-1024/openclaw-relationship-coach (blob/HEAD/README.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/关系教练-146课/README.md"
+ },
+ {
+  "id": "raw-095",
+  "title": "Relationship Coach - 恋爱关系助手",
+  "tags": [
+   "语料原文",
+   "关系教练-146课"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/cozer-1024/openclaw-relationship-coach (blob/HEAD/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/关系教练-146课/SKILL.md"
+ },
+ {
+  "id": "raw-096",
+  "title": "聊天核心技巧",
+  "tags": [
+   "语料原文",
+   "关系教练-146课"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/cozer-1024/openclaw-relationship-coach (blob/HEAD/references/chat-techniques.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/关系教练-146课/references/chat-techniques.md"
+ },
+ {
+  "id": "raw-097",
+  "title": "约会规划与流程",
+  "tags": [
+   "语料原文",
+   "关系教练-146课"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/cozer-1024/openclaw-relationship-coach (blob/HEAD/references/dating-flows.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/关系教练-146课/references/dating-flows.md"
+ },
+ {
+  "id": "raw-098",
+  "title": "亲密关系指导",
+  "tags": [
+   "语料原文",
+   "关系教练-146课"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/cozer-1024/openclaw-relationship-coach (blob/HEAD/references/intimate-relationships.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/关系教练-146课/references/intimate-relationships.md"
+ },
+ {
+  "id": "raw-099",
+  "title": "女性人格类型分析",
+  "tags": [
+   "语料原文",
+   "关系教练-146课"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/cozer-1024/openclaw-relationship-coach (blob/HEAD/references/personality-types.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/关系教练-146课/references/personality-types.md"
+ },
+ {
+  "id": "raw-100",
+  "title": "20 条恋爱真相",
+  "tags": [
+   "语料原文",
+   "关系教练-146课"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/cozer-1024/openclaw-relationship-coach (blob/HEAD/references/relationship-truths.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/关系教练-146课/references/relationship-truths.md"
+ },
+ {
+  "id": "raw-101",
+  "title": "安装指南",
+  "tags": [
+   "语料原文",
+   "军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/YXZ1211/junshi-skill (blob/HEAD/INSTALL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/军师/INSTALL.md"
+ },
+ {
+  "id": "raw-102",
+  "title": "军师.skill",
+  "tags": [
+   "语料原文",
+   "军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/YXZ1211/junshi-skill (blob/HEAD/README.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/军师/README.md"
+ },
+ {
+  "id": "raw-103",
+  "title": "军师 · 情感分析",
+  "tags": [
+   "语料原文",
+   "军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/YXZ1211/junshi-skill (blob/HEAD/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/军师/SKILL.md"
+ },
+ {
+  "id": "raw-104",
+  "title": "分析框架详解",
+  "tags": [
+   "语料原文",
+   "军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/YXZ1211/junshi-skill (blob/HEAD/docs/framework.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/军师/docs/framework.md"
+ },
+ {
+  "id": "raw-105",
+  "title": "消息分析示例",
+  "tags": [
+   "语料原文",
+   "军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/YXZ1211/junshi-skill (blob/HEAD/examples/message-analysis.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/军师/examples/message-analysis.md"
+ },
+ {
+  "id": "raw-106",
+  "title": "出谋划策模式",
+  "tags": [
+   "语料原文",
+   "军师"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/YXZ1211/junshi-skill (blob/HEAD/prompts/strategy_advisor.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/军师/prompts/strategy_advisor.md"
+ },
+ {
+  "id": "raw-083",
+  "title": "AGENTS.md",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/AGENTS.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/AGENTS.md"
+ },
+ {
+  "id": "raw-084",
+  "title": "she-love-me — First-Time Setup",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/GUIDE.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/GUIDE.md"
+ },
+ {
+  "id": "raw-085",
+  "title": "README",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/README.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/README.md"
+ },
+ {
+  "id": "raw-075",
+  "title": "她不一样",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/.agents/skills/she-love-me/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/agents-src/skills/she-love-me/SKILL.md"
+ },
+ {
+  "id": "raw-076",
+  "title": "心理学分析框架",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/.agents/skills/she-love-me/references/analysis-framework.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/agents-src/skills/she-love-me/references/analysis-framework.md"
+ },
+ {
+  "id": "raw-077",
+  "title": "聊天数据获取与导入",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/.agents/skills/she-love-me/references/data-sources.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/agents-src/skills/she-love-me/references/data-sources.md"
+ },
+ {
+  "id": "raw-078",
+  "title": "analysis.json Schema",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/.agents/skills/she-love-me/references/report-schema.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/agents-src/skills/she-love-me/references/report-schema.md"
+ },
+ {
+  "id": "raw-079",
+  "title": "Step 9 展示模板",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/.agents/skills/she-love-me/references/report-template.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/agents-src/skills/she-love-me/references/report-template.md"
+ },
+ {
+  "id": "raw-080",
+  "title": "危险预警信号定义",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/.agents/skills/she-love-me/references/risk-signals.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/agents-src/skills/she-love-me/references/risk-signals.md"
+ },
+ {
+  "id": "raw-081",
+  "title": "军师指南 · 语气风格 · 童锦程模块",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/.agents/skills/she-love-me/references/strategist-guide.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/agents-src/skills/she-love-me/references/strategist-guide.md"
+ },
+ {
+  "id": "raw-086",
+  "title": "童锦程视角",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/references/tong-jincheng/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/references/tong-jincheng/SKILL.md"
+ },
+ {
+  "id": "raw-087",
+  "title": "Agent 1: 童锦程著作与核心论点",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/references/tong-jincheng/research/01-writings.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/references/tong-jincheng/research/01-writings.md"
+ },
+ {
+  "id": "raw-088",
+  "title": "Agent 2: 童锦程长对话与即兴思维",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/references/tong-jincheng/research/02-conversations.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/references/tong-jincheng/research/02-conversations.md"
+ },
+ {
+  "id": "raw-089",
+  "title": "Agent 3: 童锦程表达风格DNA",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/references/tong-jincheng/research/03-expression-dna.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/references/tong-jincheng/research/03-expression-dna.md"
+ },
+ {
+  "id": "raw-090",
+  "title": "Agent 4: 他者视角与外部评价",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/references/tong-jincheng/research/04-external-views.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/references/tong-jincheng/research/04-external-views.md"
+ },
+ {
+  "id": "raw-091",
+  "title": "Agent 5: 童锦程决策记录与行动",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/references/tong-jincheng/research/05-decisions.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/references/tong-jincheng/research/05-decisions.md"
+ },
+ {
+  "id": "raw-092",
+  "title": "Agent 6: 童锦程时间线",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/references/tong-jincheng/research/06-timeline.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/references/tong-jincheng/research/06-timeline.md"
+ },
+ {
+  "id": "raw-093",
+  "title": "传统部署版使用说明",
+  "tags": [
+   "语料原文",
+   "她不一样-she-love-me"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/863401402/she-love-me (blob/HEAD/traditional-deployment/README.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/她不一样-she-love-me/traditional-deployment/README.md"
+ },
+ {
+  "id": "raw-107",
+  "title": "恋爱复盘.skill",
+  "tags": [
+   "语料原文",
+   "恋爱复盘"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/aisoftwarely/lianai-fupan (blob/HEAD/README.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱复盘/README.md"
+ },
+ {
+  "id": "raw-108",
+  "title": "恋爱复盘",
+  "tags": [
+   "语料原文",
+   "恋爱复盘"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/aisoftwarely/lianai-fupan (blob/HEAD/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱复盘/SKILL.md"
+ },
+ {
+  "id": "raw-109",
+  "title": "Love Advise Skill",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/README.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/README.md"
+ },
+ {
+  "id": "raw-110",
+  "title": "恋爱导师",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/SKILL.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/SKILL.md"
+ },
+ {
+  "id": "raw-111",
+  "title": "恋爱模拟预测 (Love Simulation Prediction) -- 可行性研究报告",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/docs/feasibility_research_report.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/docs/feasibility_research_report.md"
+ },
+ {
+  "id": "raw-112",
+  "title": "恋爱导师 Skill 设计文档",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/docs/superpowers/specs/2026-03-29-love-advise-skill-design.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/docs/superpowers/specs/2026-03-29-love-advise-skill-design.md"
+ },
+ {
+  "id": "raw-113",
+  "title": "沟通与聊天策略",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/references/communication.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/references/communication.md"
+ },
+ {
+  "id": "raw-114",
+  "title": "约会实战技巧",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/references/dating-practice.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/references/dating-practice.md"
+ },
+ {
+  "id": "raw-115",
+  "title": "女性类型分析",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/references/female-types.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/references/female-types.md"
+ },
+ {
+  "id": "raw-116",
+  "title": "个人价值建设",
+  "tags": [
+   "语料原文",
+   "恋爱导师-进化心理学"
+  ],
+  "type": "语料原文",
+  "source": "\"https://github.com/lgl1996521/love-advise-skill (blob/HEAD/references/value-building.md)\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "00-语料原文",
+  "file": "00-语料原文/恋爱导师-进化心理学/references/value-building.md"
+ },
+ {
   "id": "raw-044",
   "title": "版本检查（最多每 24 小时一次，不影响对话速度）",
   "tags": [
@@ -1668,6 +2242,74 @@
   "file": "01-核心方法/method-104-会聊天十件小事.md"
  },
  {
+  "id": "method-105",
+  "title": "平台差异化策略:微信/探探/Soul/青藤/Bumble/陌陌",
+  "tags": [
+   "核心方法",
+   "平台差异",
+   "开场白",
+   "profile优化"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识"
+  ],
+  "type": "方法论",
+  "source": "\"00-语料原文/情圣/skill/references/platform-guide.md(MIT,raw-050)提炼\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-105-平台差异化策略.md"
+ },
+ {
+  "id": "method-106",
+  "title": "展示面与朋友圈经营",
+  "tags": [
+   "核心方法",
+   "展示面",
+   "朋友圈",
+   "profile优化"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉"
+  ],
+  "type": "方法论",
+  "source": "\"00-语料原文/情圣/skill/references/platform-guide.md(MIT,raw-050)提炼;狗头军师语料\"",
+  "license": "MIT",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-106-展示面与朋友圈经营.md"
+ },
+ {
+  "id": "method-107",
+  "title": "表情包、语气词与回复节奏",
+  "tags": [
+   "核心方法",
+   "表情包",
+   "语气词",
+   "回复节奏"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "方法论",
+  "source": "\"调研/02、调研/03 综合提炼(人群画像-玩梗文化、秒回施压等);知识库自产原创\"",
+  "confidence": "中",
+  "board": "01-核心方法",
+  "file": "01-核心方法/method-107-表情包语气词与节奏.md"
+ },
+ {
   "id": "script-001",
   "title": "话术:夸人(细节放大与真诚认可)",
   "tags": [
@@ -2209,6 +2851,29 @@
   "confidence": "高",
   "board": "02-话术库",
   "file": "02-话术库/script-101-万用话题与场景回复.md"
+ },
+ {
+  "id": "script-102",
+  "title": "100 话题清单(按六大类,全人群适用)",
+  "tags": [
+   "话术库",
+   "话题库",
+   "清单",
+   "100话题"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"知识库原创汇编:综合调研/02 话题四维框架、script-101 万用话题、persona-006 人群适配表\"",
+  "confidence": "中",
+  "board": "02-话术库",
+  "file": "02-话术库/script-102-100话题清单.md"
  },
  {
   "id": "persona-001",
@@ -3105,6 +3770,31 @@
   "confidence": "高",
   "board": "06-风险与反收割",
   "file": "06-风险与反收割/risk-010-真实案例摘编.md"
+ },
+ {
+  "id": "risk-011",
+  "title": "情感咨询/课程产业收割识别(男生向)",
+  "tags": [
+   "风险识别",
+   "情感课程",
+   "挽回机构",
+   "消费陷阱"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "分手止损"
+  ],
+  "type": "清单",
+  "source": "\"调研/08-PUA与操控战术图谱.md(新京报/天目新闻/中新网报道);调研/07 产业图谱\"",
+  "confidence": "高",
+  "board": "06-风险与反收割",
+  "file": "06-风险与反收割/risk-011-情感课程收割识别.md"
  },
  {
   "id": "tactic-001",
@@ -4004,6 +4694,147 @@
   "confidence": "中",
   "board": "08-书籍要点",
   "file": "08-书籍要点/book-015-阅读优先级与速查.md"
+ },
+ {
+  "id": "book-016",
+  "title": "书摘:《诱惑的艺术》(罗伯特·格林)",
+  "tags": [
+   "书籍要点",
+   "诱惑的艺术",
+   "格林",
+   "类型学"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07 Top15#6 定位 + 公开书评常识,原创摘要;批判性记录\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-016-诱惑的艺术.md"
+ },
+ {
+  "id": "book-017",
+  "title": "书摘:《进化心理学》(戴维·巴斯)",
+  "tags": [
+   "书籍要点",
+   "进化心理学",
+   "择偶策略",
+   "辟谣基准"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07 Top15#7 定位 + 教科书常识,原创摘要\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-017-进化心理学.md"
+ },
+ {
+  "id": "book-018",
+  "title": "书摘:《爱的五种能力》(赵永久)",
+  "tags": [
+   "书籍要点",
+   "爱的五种能力",
+   "情绪管理",
+   "共情"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07 书目表 + 公开书评常识,原创摘要\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-018-爱的五种能力.md"
+ },
+ {
+  "id": "book-019",
+  "title": "书摘:《诫律》与\"坏女人\"系列(女性向规则派)",
+  "tags": [
+   "书籍要点",
+   "诫律",
+   "规则派",
+   "女性向",
+   "镜像视角"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07 Top15#10 定位 + 公开书评常识,原创摘要\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-019-诫律与坏女人系列.md"
+ },
+ {
+  "id": "book-020",
+  "title": "书摘:《男人来自火星,女人来自金星》(格雷)",
+  "tags": [
+   "书籍要点",
+   "火星金星",
+   "两性差异",
+   "沟通框架"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系",
+   "冲突修复"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07 Top15#11 定位 + 公开书评常识,原创摘要\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-020-男人来自火星.md"
+ },
+ {
+  "id": "book-021",
+  "title": "书摘:《海蒂性学报告》(雪儿·海蒂)",
+  "tags": [
+   "书籍要点",
+   "海蒂报告",
+   "问卷研究",
+   "女性视角"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "熟悉",
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "书籍要点",
+  "source": "\"调研/07 Top15#14 定位 + 公开书评常识,原创摘要\"",
+  "confidence": "中",
+  "board": "08-书籍要点",
+  "file": "08-书籍要点/book-021-海蒂性学报告.md"
  },
  {
   "id": "research-001",
