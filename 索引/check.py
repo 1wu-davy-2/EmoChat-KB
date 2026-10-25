@@ -11,6 +11,7 @@ BOARDS = {
     "00-语料原文": "raw-", "01-核心方法": "method-", "02-话术库": "script-", "03-人群画像": "persona-",
     "04-性格星座": "astro-", "05-场景流程": "scene-", "06-风险与反收割": "risk-",
     "07-操控图谱": "tactic-", "08-书籍要点": "book-", "10-调研报告": "research-",
+    "11-亲密与性": "intimacy-",
 }
 REQUIRED = ["id", "title", "tags", "type", "source", "confidence"]
 

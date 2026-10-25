@@ -7,7 +7,8 @@ from itertools import combinations
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOARDS = ["00-语料原文", "01-核心方法", "02-话术库", "03-人群画像", "04-性格星座",
-          "05-场景流程", "06-风险与反收割", "07-操控图谱", "08-书籍要点", "10-调研报告"]
+          "05-场景流程", "06-风险与反收割", "07-操控图谱", "08-书籍要点", "10-调研报告",
+          "11-亲密与性"]
 
 
 def shingles(text, n=8):

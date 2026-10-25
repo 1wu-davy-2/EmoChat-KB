@@ -4955,5 +4955,139 @@
   "confidence": "高",
   "board": "10-调研报告",
   "file": "10-调研报告/research-010.md"
+ },
+ {
+  "id": "intimacy-001",
+  "title": "亲密与性板块说明(18+)",
+  "tags": [
+   "亲密",
+   "性教育",
+   "板块说明",
+   "成人内容"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "暧昧",
+   "确定关系"
+  ],
+  "type": "清单",
+  "source": "\"知识库自产;UNESCO《国际性教育技术指导纲要》框架参照\"",
+  "confidence": "高",
+  "board": "11-亲密与性",
+  "file": "11-亲密与性/intimacy-001-板块说明.md"
+ },
+ {
+  "id": "intimacy-002",
+  "title": "性需求沟通:如何和伴侣聊亲密话题",
+  "tags": [
+   "亲密",
+   "性沟通",
+   "欲望错位",
+   "伴侣沟通"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"Gottman Institute 欲望错位研究;ISSM 国际性医学学会;Sondermind 亲密咨询;知识库原创整理\"",
+  "confidence": "高",
+  "board": "11-亲密与性",
+  "file": "11-亲密与性/intimacy-002-性需求沟通.md"
+ },
+ {
+  "id": "intimacy-003",
+  "title": "BD5M 安全框架:SSC/RACK、安全词与事后安抚",
+  "tags": [
+   "亲密",
+   "BD5M",
+   "SSC",
+   "RACK",
+   "安全词",
+   "同意文化"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"维基百科 安全理智知情同意;Kink Reference ssc/rack 词条;知乎/Dcard 社群科普;知识库原创整理\"",
+  "confidence": "中",
+  "board": "11-亲密与性",
+  "file": "11-亲密与性/intimacy-003-BD5M安全框架.md"
+ },
+ {
+  "id": "intimacy-004",
+  "title": "性癖好的心理学界线:正常变异 vs 需要求助",
+  "tags": [
+   "亲密",
+   "性癖好",
+   "心理学",
+   "性偏好障碍",
+   "求助界线"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "确定关系"
+  ],
+  "type": "方法论",
+  "source": "\"默沙东诊疗手册 性偏离概述 https://www.msdmanuals.cn/professional/psychiatric-disorders/paraphilias-and-paraphilic-disorders/overview-of-paraphilias-and-paraphilic-disorders;LeePsy Clinic;drsexswag 科普\"",
+  "confidence": "高",
+  "board": "11-亲密与性",
+  "file": "11-亲密与性/intimacy-004-性癖好心理学界线.md"
+ },
+ {
+  "id": "intimacy-005",
+  "title": "常见性生活议题速览(欲望差异/压力/健康)",
+  "tags": [
+   "亲密",
+   "性生活",
+   "欲望差异",
+   "性健康",
+   "速览"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "确定关系"
+  ],
+  "type": "清单",
+  "source": "\"Gottman Institute;ISSM;Sondermind;WHO 性健康定义;知识库原创整理\"",
+  "confidence": "中",
+  "board": "11-亲密与性",
+  "file": "11-亲密与性/intimacy-005-常见性生活议题.md"
+ },
+ {
+  "id": "intimacy-006",
+  "title": "性相关骗术识别:裸聊敲诈与亲密诱导消费",
+  "tags": [
+   "风险识别",
+   "裸聊敲诈",
+   "sextortion",
+   "性诈骗",
+   "亲密诱导"
+  ],
+  "audience": [
+   "通用"
+  ],
+  "stage": [
+   "初识",
+   "熟悉",
+   "暧昧"
+  ],
+  "type": "清单",
+  "source": "\"香港警察 https://www.police.gov.hk/offbeat120/scam/64_nude-chat-scam.html;新华社 http://www.news.cn/2023-10/21/c_1129929579.htm;深圳公安局 https://ga.sz.gov.cn/JMHD/YWZSK/XJGL_ZS/content/post_9577486.html\"",
+  "confidence": "高",
+  "board": "11-亲密与性",
+  "file": "11-亲密与性/intimacy-006-性相关骗术识别.md"
  }
 ]
