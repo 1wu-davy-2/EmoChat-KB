@@ -105,7 +105,8 @@
 │                      # 家庭角色/育儿理念/赡养负担/彩礼预算/财产透明/健康生育/异性社交边界 +
 │                      # 平台使用习惯/性观念自评/亲密推进节奏/性沟通舒适度/线上展示边界/专一期待/关系结构偏好 +
 │                      # 休闲关系接受度/线上亲密媒介偏好/私密影像态度/异地恋与奔现意愿 + 组合模板
-└── 索引/               # metadata.json · search.py · check.py · dedup_check.py · 验收脚本
+├── 索引/               # metadata.json · search.py · check.py · dedup_check.py · 验收脚本
+└── skill/              # 跨平台 Agent Skill: build.py + dist/ 私有完整版与公开框架版
 ```
 
 ## 快速开始
@@ -122,6 +123,20 @@ python 索引/acceptance_run.py   # 331 个查询的 top3 命中验收(含 v9~v1
 ```
 
 也可以把整个目录导入 Cherry Studio / AnythingLLM 等本地知识库软件,或让任意本地 AI 助手读 `索引/metadata.json` 后按标签(人群/阶段/严重度/置信度)取用条目。
+
+## Agent Skill(跨平台)
+
+`skill/` 把知识库打包成通用 Agent Skill,采用单入口 + 渐进披露:
+
+- **私有完整版**:`skill/dist/emochat-private/`,含 589 条卡片索引与检索脚本,仅供作者本地/私有环境使用。
+- **公开框架版**:`skill/dist/emochat-public/`,只含分析流程、playbooks、输出模板与安全边界,不含知识库正文、案例或话术。
+
+```bash
+python skill/build.py
+python skill/check.py
+```
+
+支持 `SKILL.md` 的平台(Claude Code / Codex / Qoder 等)直接安装整个目录;Grok / Pi / WorkBuddy 等使用 `adapters/prompt-pack.md`。安装路径、`EMOCHAT_KB` 配置与授权说明见 [skill/README.md](skill/README.md)。
 
 ## 条目格式
 
