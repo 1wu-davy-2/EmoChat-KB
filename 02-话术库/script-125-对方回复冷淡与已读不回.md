@@ -5,7 +5,7 @@ tags: [话术示例, 已读不回, 冷淡回复, 止损, 聊天节奏]
 audience: [通用]
 stage: [初识, 熟悉, 暧昧]
 type: 话术示例
-source: "知识库原创整理;参考 Gottman《Seven Principles for Making Marriage》关于转向回避(bid turning away)的公开要点"
+source: "知识库原创整理;参考 Gottman 研究所关于连接邀请(bid)与回应方式的公开资料"
 confidence: 中
 ---
 

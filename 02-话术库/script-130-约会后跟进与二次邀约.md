@@ -5,7 +5,7 @@ tags: [话术示例, 约会后跟进, 二次邀约, 冷淡处理, 礼貌收场]
 audience: [通用]
 stage: [约会, 暧昧]
 type: 话术示例
-source: "知识库原创整理;参考 Gottman《Eight Dates》关于约会后回顾的公开要点"
+source: "知识库原创整理;参考 Gottman 研究所关于日常连接与关系维护谈话的公开资料"
 confidence: 高
 ---
 

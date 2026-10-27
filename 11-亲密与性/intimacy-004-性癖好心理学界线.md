@@ -5,7 +5,7 @@ tags: [亲密, 性癖好, 心理学, 性偏好障碍, 求助界线]
 audience: [通用]
 stage: [确定关系]
 type: 方法论
-source: "默沙东诊疗手册 性偏离概述 https://www.msdmanuals.cn/professional/psychiatric-disorders/paraphilias-and-paraphilic-disorders/overview-of-paraphilias-and-paraphilic-disorders;LeePsy Clinic;drsexswag 科普"
+source: "默沙东诊疗手册 性偏离概述 https://www.msdmanuals.cn/professional/psychiatric-disorders/paraphilias-and-paraphilic-disorders/overview-of-paraphilias-and-paraphilic-disorders;WHO ICD-11 公开条目中关于 paraphilic disorders 的分类说明;知识库原创整理"
 confidence: 高
 ---
 

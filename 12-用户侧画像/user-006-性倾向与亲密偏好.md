@@ -71,7 +71,7 @@ confidence: 高
 ## 相关条目
 
 - 性需求沟通：intimacy-002
-- BD5M 安全框架：intimacy-003
+- BDSM 安全框架：intimacy-003
 - 癖好心理学界线：intimacy-004
 - 持续同意与协商：intimacy-007
 - 避孕与性健康检查：intimacy-008

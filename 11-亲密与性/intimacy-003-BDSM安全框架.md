@@ -1,15 +1,15 @@
 ---
 id: intimacy-003
-title: BD5M 安全框架:SSC/RACK、安全词与事后安抚
-tags: [亲密, BD5M, SSC, RACK, 安全词, 同意文化]
+title: BDSM 安全框架:SSC/RACK、安全词与事后安抚
+tags: [亲密, BDSM, SSC, RACK, 安全词, 同意文化]
 audience: [通用]
 stage: [确定关系]
 type: 方法论
-source: "维基百科 安全理智知情同意;Kink Reference ssc/rack 词条;知乎/Dcard 社群科普;知识库原创整理"
+source: "AASECT 美国性教育咨询与治疗协会公开资料中关于知情同意与性沟通的一般原则;NCSF 美国性自由联盟公开的同意与安全框架介绍;知识库原创整理"
 confidence: 中
 ---
 
-# BD5M 安全框架(同意文化入门)
+# BDSM 安全框架(同意文化入门)
 
 > 定位:成年人之间知情自愿的癖好实践,其社群发展出成熟的**同意文化**——这套框架本身就是亲密沟通的范本。本条目为教育向安全知识,不涉及具体实践描写。
 

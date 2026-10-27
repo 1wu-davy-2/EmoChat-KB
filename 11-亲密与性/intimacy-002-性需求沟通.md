@@ -5,7 +5,7 @@ tags: [亲密, 性沟通, 欲望错位, 伴侣沟通]
 audience: [通用]
 stage: [确定关系]
 type: 方法论
-source: "Gottman Institute 欲望错位研究;ISSM 国际性医学学会;Sondermind 亲密咨询;知识库原创整理"
+source: "Gottman Institute 欲望错位研究;ISSM 国际性医学学会公开资料;知识库原创整理"
 confidence: 高
 ---
 

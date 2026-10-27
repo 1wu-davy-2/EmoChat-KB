@@ -5,7 +5,7 @@ tags: [亲密, 事后照护, aftercare, 复盘, 情绪处理]
 audience: [通用]
 stage: [确定关系, 冲突修复]
 type: 方法论
-source: "AASECT 性治疗公开资料;RAINN 事后照护公开资料;《Come as You Are》(Emily Nagoski) 相关研究综述;知识库原创整理"
+source: "AASECT 性治疗公开资料;ISSM 国际性医学学会公开资料;《Come as You Are》(Emily Nagoski) 相关研究综述;知识库原创整理"
 confidence: 高
 ---
 

@@ -5,7 +5,7 @@ tags: [亲密, 性生活, 欲望差异, 性健康, 速览]
 audience: [通用]
 stage: [确定关系]
 type: 清单
-source: "Gottman Institute;ISSM;Sondermind;WHO 性健康定义;知识库原创整理"
+source: "Gottman Institute;ISSM 国际性医学学会;WHO 性健康定义;知识库原创整理"
 confidence: 中
 ---
 

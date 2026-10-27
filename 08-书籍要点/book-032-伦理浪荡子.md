@@ -51,7 +51,7 @@ confidence: 中
 ## 相关条目
 
 - intimacy-007 持续同意与协商
-- intimacy-003 BD5M安全框架
+- intimacy-003 BDSM 安全框架
 - intimacy-008 避孕与性健康检查
 - book-033 出轨
 - method-109 边界与自我分化
