@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""EmoChat-KB 便携检索（零依赖，BM25 风格评分）。
+"""EmoChat-KB 便携检索（零依赖，预构建 BM25 索引）。
 
 用法:
     python emochat_search.py "查询词"
@@ -9,168 +9,67 @@
     python emochat_search.py "查询词" --json
     python emochat_search.py "查询词" --kb /path/to/EmoChat-KB
 
-知识库路径优先级: --kb > EMOCHAT_KB 环境变量 > 从脚本位置向上查找
-包含 索引/metadata.json 的目录。
+知识库路径优先级: --kb > EMOCHAT_KB 环境变量 > 技能根目录 .emochat-kb
+文件 > 从脚本位置向上查找包含 索引/metadata.json 的目录。
 """
 import argparse
 import json
-import math
-import os
-import re
 import sys
-from collections import Counter
+import time
 from pathlib import Path
 
-for _stream in (sys.stdout, sys.stderr):
-    if hasattr(_stream, "reconfigure"):
-        try:
-            _stream.reconfigure(encoding="utf-8", errors="replace")
-        except (OSError, ValueError):
-            pass
+import emochat_core as core
 
 
-def is_kb(path):
-    return (path / "索引" / "metadata.json").is_file()
+def emit_error(message, as_json):
+    if as_json:
+        print(json.dumps({"error": message}, ensure_ascii=False, indent=2))
+    else:
+        print(message, file=sys.stderr)
 
 
-def resolve_kb(explicit=None):
-    if explicit:
-        candidate = Path(explicit).expanduser()
-        return candidate.resolve() if is_kb(candidate) else None
-    env = os.environ.get("EMOCHAT_KB")
-    if env:
-        candidate = Path(env).expanduser()
-        return candidate.resolve() if is_kb(candidate) else None
-    here = Path(__file__).resolve()
-    for candidate in [here.parent, *here.parents]:
-        try:
-            candidate = candidate.resolve()
-        except OSError:
+def print_result(result, show_why, excerpt_chars):
+    print("[%6.2f] %s  %s" % (result["score"], result["id"], result["title"]))
+    print("          path: %s" % result["path"])
+    print("          abs:  %s" % result["abs_path"])
+    print(
+        "          tags: %s | type: %s | stage: %s"
+        % (core.printable(result["tags"]), result["type"], core.printable(result["stage"]))
+    )
+    if show_why and result.get("why"):
+        phrase = result.get("phrase") or ""
+        print("          why:  %s%s" % (
+            ",".join(result["why"]),
+            (" | phrase: " + phrase) if phrase else "",
+        ))
+    if excerpt_chars and result.get("excerpt"):
+        print("          excerpt:")
+        for line in result["excerpt"].splitlines():
+            print("            " + line)
+    print()
+
+
+def attach_excerpts(engine, results, query, chars, safe=True):
+    if not chars:
+        return results
+    for result in results:
+        result["excerpt"] = engine.excerpt(result, query=query, max_chars=chars, safe=safe)
+    return results
+
+
+def load_batch_queries(path):
+    queries = []
+    text = Path(path).read_text(encoding="utf-8")
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
             continue
-        if is_kb(candidate):
-            return candidate
-    return None
-
-
-def tokenize(text):
-    tokens = []
-    for word in re.findall(r"[A-Za-z0-9]+", text.lower()):
-        tokens.append(word)
-    for segment in re.findall(r"[\u4e00-\u9fff]+", text):
-        if len(segment) == 1:
-            tokens.append(segment)
-        for i in range(len(segment) - 1):
-            tokens.append(segment[i:i + 2])
-    return tokens
-
-
-def load_entries(kb):
-    metadata_path = kb / "索引" / "metadata.json"
-    try:
-        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
-    except (OSError, ValueError) as exc:
-        raise SystemExit(f"无法读取 metadata: {metadata_path}\n{exc}")
-    if not isinstance(metadata, list):
-        raise SystemExit(f"metadata.json 应为数组: {metadata_path}")
-
-    entries = []
-    for item in metadata:
-        if not isinstance(item, dict):
-            continue
-        relative = str(item.get("file") or "").replace("\\", "/")
-        body = ""
-        if relative:
-            path = kb / relative
-            try:
-                body = path.read_text(encoding="utf-8", errors="ignore")
-            except OSError:
-                body = ""
-        title = str(item.get("title") or "")
-        tags = item.get("tags") or []
-        audience = item.get("audience") or []
-        stage = item.get("stage") or []
-        tags_text = " ".join(tags) if isinstance(tags, list) else str(tags)
-        audience_text = " ".join(audience) if isinstance(audience, list) else str(audience)
-        stage_text = " ".join(stage) if isinstance(stage, list) else str(stage)
-        tokens = tokenize(
-            title * 3 + " " + tags_text * 2 + " " + audience_text + " "
-            + stage_text + " " + str(item.get("type") or "") + " " + body
-        )
-        entries.append({
-            "id": str(item.get("id") or "?"),
-            "title": title,
-            "path": relative,
-            "abs_path": str((kb / relative).resolve()) if relative else "",
-            "tags": tags,
-            "type": item.get("type") or "",
-            "stage": stage,
-            "audience": audience,
-            "severity": item.get("severity") or "",
-            "board": str(item.get("board") or ""),
-            "tf": Counter(tokens),
-        })
-    return entries
-
-
-def search(entries, query, top=8, tag=None, board=None):
-    filtered = entries
-    if tag:
-        filtered = [
-            entry for entry in filtered
-            if tag in str(entry["tags"]) or tag == entry["type"]
-            or tag in str(entry["audience"])
-        ]
-    if board:
-        filtered = [
-            entry for entry in filtered
-            if entry["board"].startswith(board)
-            or entry["path"].startswith(board)
-        ]
-    query_tokens = tokenize(query)
-    if not query_tokens or not filtered:
-        return []
-
-    document_frequency = {}
-    for entry in filtered:
-        for token in set(query_tokens):
-            if token in entry["tf"]:
-                document_frequency[token] = document_frequency.get(token, 0) + 1
-
-    total = len(filtered)
-    results = []
-    for entry in filtered:
-        score = 0.0
-        for token in query_tokens:
-            frequency = entry["tf"].get(token, 0)
-            if not frequency:
-                continue
-            df = document_frequency.get(token, 0)
-            idf = math.log(1 + (total - df + 0.5) / (df + 0.5))
-            score += idf * frequency / (frequency + 1.2)
-        if score > 0:
-            results.append({
-                "score": round(score, 3),
-                "id": entry["id"],
-                "title": entry["title"],
-                "path": entry["path"],
-                "abs_path": entry["abs_path"],
-                "tags": entry["tags"],
-                "type": entry["type"],
-                "stage": entry["stage"],
-                "audience": entry["audience"],
-                "severity": entry["severity"],
-            })
-    results.sort(key=lambda result: -result["score"])
-    return results[:top]
-
-
-def printable(value):
-    if isinstance(value, list):
-        return ",".join(str(item) for item in value)
-    return str(value)
+        queries.append(line)
+    return queries
 
 
 def main():
+    core.setup_streams()
     parser = argparse.ArgumentParser(description="EmoChat-KB 便携检索")
     parser.add_argument("query", nargs="?", help="查询词")
     parser.add_argument("--top", type=int, default=8, help="返回条数，默认 8")
@@ -178,42 +77,128 @@ def main():
     parser.add_argument("--board", help="按板块前缀过滤，如 06")
     parser.add_argument("--json", action="store_true", help="输出 JSON")
     parser.add_argument("--kb", help="知识库根目录")
+    parser.add_argument("--excerpt", nargs="?", type=int, const=600, default=0,
+                        help="附带卡片摘要，默认 600 字；不传则不输出")
+    parser.add_argument("--queries", nargs="+", help="一次运行多组查询")
+    parser.add_argument("--batch", help="查询词文件，一行一组")
+    parser.add_argument("--merge", action="store_true", help="批量查询合并排序")
+    parser.add_argument("--why", action="store_true", help="显示命中词与短语")
+    parser.add_argument("--no-diversify", action="store_true", help="关闭板块/标题去重")
+    parser.add_argument("--rebuild-index", action="store_true", help="忽略缓存重建索引")
+    parser.add_argument("--cache-dir", help="索引缓存目录")
+    parser.add_argument("--index-info", action="store_true", help="显示索引来源与规模")
+    parser.add_argument("--timing", action="store_true", help="向 stderr 输出耗时")
     args = parser.parse_args()
 
-    if not args.query:
+    queries = []
+    if args.query:
+        queries.append(args.query)
+    if args.queries:
+        queries.extend(args.queries)
+    if args.batch:
+        try:
+            queries.extend(load_batch_queries(args.batch))
+        except OSError as exc:
+            emit_error("无法读取查询文件: %s" % exc, args.json)
+            return 2
+    if not queries and not args.index_info:
         parser.print_help()
         return 1
 
-    kb = resolve_kb(args.kb)
+    kb = core.resolve_kb(args.kb)
     if kb is None:
         message = (
             "找不到 EmoChat-KB。请用 --kb 指定仓库根目录，"
             "或设置 EMOCHAT_KB 环境变量。"
         )
-        if args.json:
-            print(json.dumps({"error": message}, ensure_ascii=False, indent=2))
-        else:
-            print(message, file=sys.stderr)
+        emit_error(message, args.json)
         return 2
 
-    entries = load_entries(kb)
-    results = search(entries, args.query, max(1, args.top), args.tag, args.board)
+    total_started = time.perf_counter()
+    engine = core.SearchEngine(kb, cache_dir=args.cache_dir, rebuild=args.rebuild_index)
+    diversify = not args.no_diversify
 
-    if args.json:
-        print(json.dumps(results, ensure_ascii=False, indent=2))
+    if args.index_info:
+        info = {
+            "kb": str(kb),
+            "source": engine.meta.get("source"),
+            "load_ms": engine.meta.get("load_ms"),
+            "build_ms": engine.meta.get("build_ms"),
+            "cached": engine.meta.get("cached"),
+            "docs": len(engine.docs),
+            "vocab": len(engine.vocab),
+            "cache_dir": engine.meta.get("cache_dir"),
+            "signature": engine.meta.get("signature"),
+        }
+        if args.json:
+            print(json.dumps(info, ensure_ascii=False, indent=2))
+        else:
+            for key, value in info.items():
+                print("%s: %s" % (key, value))
         return 0
-    if not results:
-        print("(无匹配结果)")
-        return 0
-    for result in results:
-        print(f"[{result['score']:>6.2f}] {result['id']}  {result['title']}")
-        print(f"          path: {result['path']}")
-        print(f"          abs:  {result['abs_path']}")
+
+    search_started = time.perf_counter()
+    if len(queries) > 1 or args.batch or args.queries:
+        specs = [{"query": query, "weight": 1.0} for query in queries]
+        if args.merge:
+            results, normalized = engine.batch(specs, top=args.top,
+                                               per_query=max(6, args.top),
+                                               diversify=diversify)
+            attach_excerpts(engine, results, " ".join(queries), args.excerpt)
+            if args.json:
+                print(json.dumps({
+                    "queries": [item["query"] for item in normalized],
+                    "results": results,
+                }, ensure_ascii=False, indent=2))
+            else:
+                print("## merged: %s" % " | ".join(item["query"] for item in normalized))
+                for result in results:
+                    print_result(result, args.why, args.excerpt)
+        else:
+            grouped = {}
+            for query in queries:
+                results = engine.search(query, top=args.top, tag=args.tag,
+                                        board=args.board, diversify=diversify)
+                attach_excerpts(engine, results, query, args.excerpt)
+                grouped[query] = results
+            if args.json:
+                print(json.dumps(grouped, ensure_ascii=False, indent=2))
+            else:
+                for query, results in grouped.items():
+                    print("## %s" % query)
+                    if not results:
+                        print("(无匹配结果)\n")
+                        continue
+                    for result in results:
+                        print_result(result, args.why, args.excerpt)
+    else:
+        results = engine.search(queries[0], top=max(1, args.top), tag=args.tag,
+                                board=args.board, diversify=diversify)
+        attach_excerpts(engine, results, queries[0], args.excerpt)
+        if args.json:
+            print(json.dumps(results, ensure_ascii=False, indent=2))
+        elif not results:
+            print("(无匹配结果)")
+        else:
+            for result in results:
+                print_result(result, args.why, args.excerpt)
+
+    if args.timing:
+        elapsed = (time.perf_counter() - total_started) * 1000
+        search_ms = (time.perf_counter() - search_started) * 1000
         print(
-            f"          tags: {printable(result['tags'])} | type: {result['type']}"
-            f" | stage: {printable(result['stage'])}"
+            "timing: total=%.0fms search=%.0fms index_load=%.0fms index_build=%.0fms "
+            "source=%s docs=%d"
+            % (
+                elapsed,
+                search_ms,
+                engine.meta.get("load_ms") or 0,
+                engine.meta.get("build_ms") or 0,
+                engine.meta.get("source"),
+                len(engine.docs),
+            ),
+            file=sys.stderr,
         )
-        print()
     return 0
 
 

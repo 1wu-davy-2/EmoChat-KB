@@ -2,6 +2,39 @@
 
 根据任务选择模板，不要把模板当成固定八股。结论先行，证据分层，建议可执行。
 
+## 0. 脚本输出怎么落到模板
+
+跑过 `scripts/emochat_analyze.py` 后，直接按字段搬运，不要重新推理：
+
+`profile` 输出：
+
+| 字段 | 填到 |
+|---|---|
+| `conclusion` | 模板 1 的“结论”，可再按用户原问题改写 |
+| `source` / `metrics` / `trend` | “事实与模式”“互惠与边界”（消息量、说话人、跨度、回复间隔、`reciprocity`、冷热变化） |
+| `stage` / `themes` | 阶段判断与主要话题 |
+| `risk.level` / `risk.score` / `risk.reasons` / `risk.summary` | “风险等级”“紧急程度”；`hard_stop` 为真时改用模板 4 |
+| `signals[].label` / `examples` | “事实”与证据引用，注明是对方说的还是用户说的 |
+| `queries[].query` / `reason` | 说明你检索了什么，便于用户复核 |
+| `pack[].id` / `title` / `excerpt` | “依据”里的卡片引用，只写 ID + 标题，不要整段抄摘要 |
+| `notes_themes` | 用户补充的人物描述对应的判断，标明来源是用户自述 |
+| `warnings` | 解析不确定的地方，写进“还不能确定” |
+
+`reply` 输出：
+
+| 字段 | 填到 |
+|---|---|
+| `intent.label` / `confidence` / `evidence` | 你对这条消息的判断与依据 |
+| `intent.drafts` | 模板 5 的三版话术，按用户语气改写后再给 |
+| `intent.strategy` / `moves` | “你可以选”“现在做什么” |
+| `intent.avoid` | “不要做什么” |
+| `intent.needs` | “还需要知道” |
+| `risk` / `context` | 与画像合并后的风险等级、阶段、互惠与近期走势 |
+| `cards[].id` / `title` | 引用卡片 |
+| `pack_note` | 说明卡片包是否来自合并画像，或未检索的原因 |
+
+`hard_stop` 为真（涉及未成年人或即时危险）时，只输出模板 4，并删掉所有推进关系的话术。`intent.drafts` 此时为空是预期行为，不要自己补。
+
 ## 1. 聊天/关系分析
 
 ```markdown

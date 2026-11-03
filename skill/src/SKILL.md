@@ -15,10 +15,14 @@ description: {{DESCRIPTION}}
 2. **确认阶段与目标**：初识 / 熟悉 / 暧昧 / 约会 / 确定关系 / 冲突修复 / 分手止损；用户想推进、修复、拒绝还是退出。
 3. **做紧急度筛查**：人身危险、跟踪、威胁、隐私泄露、自伤风险。若有，先读 `references/playbook-crisis.md`，不要先教聊天技巧。
 
+用户贴出几十上百条聊天记录时，不要逐条读进上下文再手写分析：先用 `references/kb-integration.md` 的分析脚本一次跑出画像与卡片包，脚本输出已经是可直接引用的结构。用户之后追加人物描述，用 `--notes`；后续新消息只问“这条怎么回”，用 `reply` 并复用上一步的 profile，不要重跑全量画像。
+
 ## 选择工作流
 
 | 用户需求 | 读取 |
 |---|---|
+| 100 条以上完整聊天记录，要人物/关系画像 | 先跑 `profile` 快速通道，见 `references/kb-integration.md` |
+| 只需要回复其中某一条消息 | 先跑 `reply` 快速通道，见 `references/kb-integration.md` |
 | 聊天怎么回、怎么推进、如何判断兴趣 | `references/playbook-chat.md` |
 | 对方是否在操控、诈骗、收割，是否该止损 | `references/playbook-risk.md` |
 | 亲密、性沟通、同意、语音/视频、私密影像 | `references/playbook-intimacy.md` |
@@ -78,5 +82,7 @@ description: {{DESCRIPTION}}
 - `references/index.md`：板块路由与使用说明
 - `references/playbook-chat.md` / `playbook-risk.md` / `playbook-intimacy.md` / `playbook-crisis.md`
 - `references/output-templates.md` / `safety-boundaries.md` / `kb-integration.md`
+- `scripts/emochat_analyze.py`：长记录画像与单条回复快速通道
+- `scripts/emochat_search.py`：便携检索
 - `adapters/installation.md`：各平台安装
 - `adapters/prompt-pack.md`：无文件权限平台的单文件版

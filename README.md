@@ -128,8 +128,10 @@ python 索引/acceptance_run.py   # 331 个查询的 top3 命中验收(含 v9~v1
 
 `skill/` 把知识库打包成通用 Agent Skill,采用单入口 + 渐进披露:
 
-- **私有完整版**:`skill/dist/emochat-private/`,含 589 条卡片索引与检索脚本,仅供作者本地/私有环境使用。
+- **私有完整版**:`skill/dist/emochat-private/`,含 589 条卡片索引、预构建检索索引与分析脚本,仅供作者本地/私有环境使用。
 - **公开框架版**:`skill/dist/emochat-public/`,只含分析流程、playbooks、输出模板与安全边界,不含知识库正文、案例或话术。
+
+贴一整段聊天记录(100 条以上)时用 `emochat_analyze.py profile` 一次出人物/关系画像,追加人物描述用 `--notes`,只问某一条怎么回用 `reply --message ... --profile profile.json`;130 条记录约 0.4 秒,单条回复约 0.2 秒。
 
 ```bash
 python skill/build.py

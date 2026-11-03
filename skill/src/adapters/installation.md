@@ -74,8 +74,16 @@ export EMOCHAT_KB="$HOME/EmoChat-KB"
 也可以每次传 `--kb`：
 
 ```bash
-python scripts/emochat_search.py "FWB 公平" --top 5 --kb "E:/opt/Qoder/EmoChat-KB"
+python scripts/emochat_search.py "FWB 公平" --top 5 --kb "D:/path/to/EmoChat-KB"
 ```
+
+或在技能根目录写入单行路径（适合长期安装）：
+
+```bash
+echo "D:\path\to\EmoChat-KB" > .emochat-kb
+```
+
+优先级：`--kb` > `EMOCHAT_KB` > `.emochat-kb` > 从脚本位置向上查找。
 
 ## 验证
 
@@ -84,9 +92,13 @@ python scripts/emochat_search.py "FWB 公平" --top 5 --kb "E:/opt/Qoder/EmoChat
 python scripts/emochat_search.py "FWB 公平" --top 3
 python scripts/emochat_search.py "视频亲密 录屏 停止" --top 3
 python scripts/emochat_search.py "异地网恋 奔现" --top 3
+
+# 快速通道（把 chat.txt 换成你自己的记录文件）
+python scripts/emochat_analyze.py profile chat.txt --me "我" --timing
+python scripts/emochat_analyze.py reply --message "我们到底算什么关系" --no-search
 ```
 
-应返回对应板块的卡片与路径。若提示找不到知识库，按上面的 `EMOCHAT_KB` 配置。
+应返回对应板块的卡片与路径，`profile` 应在 1 秒内出画像（不含首次索引构建）。若提示找不到知识库，按上面的路径配置处理；公开框架版没有知识库，加 `--no-search`。
 
 ## 更新
 

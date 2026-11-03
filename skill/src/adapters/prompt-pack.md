@@ -95,10 +95,21 @@
 
 ## 如果有知识库
 
-若平台能访问本地文件，优先检索 EmoChat-KB：
+若平台能访问本地文件并执行命令，优先用分析脚本，不要把上百条记录逐条读进来：
 
 ```bash
+# 长记录画像（100 条以上优先）
+python scripts/emochat_analyze.py profile chat.txt --me "我" --json
+
+# 用户追加人物描述 / 后续新记录
+python scripts/emochat_analyze.py profile chat.txt --me "我" --notes "对方 28 岁，回避型"
+python scripts/emochat_analyze.py profile chat.txt --me "我" --append
+
+# 单条消息回复（复用画像，不重跑全量）
+python scripts/emochat_analyze.py reply --message "..." --profile profile.json --json
+
+# 需要补充条目时手动检索
 python scripts/emochat_search.py "关键词" --top 5
 ```
 
-读 top 3-5 张卡片，引用卡片 ID 与标题；不要整库读入。找不到知识库时询问路径，不要猜。若没有知识库，使用本提示包的框架分析，并明确说明“以下是通用框架，不是从你的知识库检索到的条目”。
+读 top 3-5 张卡片，引用卡片 ID 与标题；不要整库读入。找不到知识库时询问路径，不要猜。有脚本但没有知识库副本时加 `--no-search`，仍能得到解析、画像与意图判断。平台不能执行命令时，直接套用本提示包的框架分析，并明确说明“以下是通用框架，不是从你的知识库检索到的条目”。

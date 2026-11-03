@@ -1,3 +1,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+skill/.check-tmp/
+.tmp*
+_tmp*
+.emochat-kb
+# 预构建检索索引由知识库正文派生，只本地生成，不入库
+skill/dist/*/references/search-index.pkl.gz

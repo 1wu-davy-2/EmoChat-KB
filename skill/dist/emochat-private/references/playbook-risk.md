@@ -11,6 +11,8 @@
 
 紧急情况下，不要求用户先收集完整证据再求助；先确保安全，证据可以后续补。
 
+用户贴出完整记录时，先跑 `scripts/emochat_analyze.py profile chat.txt --me "我" --json`：`risk.level` / `risk.reasons` 给出等级与依据，`signals[]` 按“谁说的”区分对方行为与用户自述，`hard_stop` 为真说明涉及未成年人或即时危险，此时直接转 `playbook-crisis.md`。用户后续被追加威胁或索取时，用 `reply --message "..." --profile profile.json` 拿合并后的风险与三版安全回复，不要重跑全量画像。脚本只做初筛，最终定性仍按本 playbook 的证据标准复核。
+
 ## 风险类型与识别信号
 
 ### 金钱与交易型风险

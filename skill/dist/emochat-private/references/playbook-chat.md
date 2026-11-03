@@ -12,6 +12,8 @@
 
 信息不足时，先给“初步判断 + 需要补充的 1-3 项”，不要硬下结论。
 
+用户直接贴出完整记录（几十上百条）时，先跑 `scripts/emochat_analyze.py profile chat.txt --me "我" --json`，它会给出说话人归属、消息量与回复间隔、互惠度、冷热趋势、阶段、主题、风险信号、检索词与卡片包；本 playbook 用来解释这些数字，不用来重新数一遍。用户补充对方背景时用 `--notes`，后续只问某一条怎么回时用 `reply --message "..." --profile profile.json`。命令细节见 `kb-integration.md`。
+
 ## 分析维度
 
 ### 1. 互惠与主动性

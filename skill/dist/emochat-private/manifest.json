@@ -16,5 +16,21 @@
     "10-调研报告": 10,
     "11-亲密与性": 41,
     "12-用户侧画像": 36
+  },
+  "search_index": {
+    "file": "references/search-index.pkl.gz",
+    "format": "emochat-index-v1",
+    "docs": 589,
+    "terms": 126008,
+    "bytes": 1921305,
+    "build_seconds": 1.505,
+    "signature": {
+      "total": 589,
+      "metadata_size": 353199,
+      "metadata_mtime_ns": 1793084828204319600,
+      "card_bytes": 4429286,
+      "card_mtime_ns": 1793083587457025800,
+      "missing": 0
+    }
   }
 }

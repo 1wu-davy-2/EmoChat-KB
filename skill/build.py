@@ -10,6 +10,8 @@ SKILL_DIR = Path(__file__).resolve().parent
 ROOT = SKILL_DIR.parent
 SRC = SKILL_DIR / "src"
 DIST = SKILL_DIR / "dist"
+sys.path.insert(0, str(SRC / "scripts"))
+import emochat_core as core  # noqa: E402
 
 BOARDS = [
     ("00-语料原文", "MIT 原始语料，适合查早期话术与风格；引用时保留出处与 MIT 许可。"),
@@ -36,6 +38,12 @@ COMMON_REFERENCES = [
     "kb-integration.md",
 ]
 
+COMMON_SCRIPTS = [
+    "emochat_core.py",
+    "emochat_search.py",
+    "emochat_analyze.py",
+]
+
 COMMON_ADAPTERS = [
     "AGENTS.md",
     "installation.md",
@@ -44,26 +52,33 @@ COMMON_ADAPTERS = [
 
 PRIVATE_KB_SECTION = """## 检索知识库（私有完整版）
 
-本版随包提供 589 条卡片的板块索引（`references/board-*.md`）。不要一次读完整个知识库，按以下顺序按需取用：
+本版随包提供 589 条卡片的板块索引（`references/board-*.md`）和预构建检索索引（`references/search-index.pkl.gz`）。不要一次读完整个知识库，按以下顺序按需取用：
 
-1. 运行 `python scripts/emochat_search.py "关键词" --top 5`，用 2-4 组不同关键词检索。
-2. 读取排名最高的 3-5 张卡片，核对 `audience / stage / severity` 是否匹配。
-3. 需要浏览板块时，先读对应 `board-*.md` 的索引表，再按 `path` 读取原文。
-4. 引用时写清卡片 ID 与标题；公开案例与合成案例要区分，坏话术只用于识别。
+1. 用户给出 100 条以上聊天记录时，优先运行  
+   `python scripts/emochat_analyze.py profile chat.txt --me "我" --json --timing`。  
+   它一次完成解析、人物/关系画像、风险判断、检索词生成与卡片包，输出可直接用于回答。
+2. 用户追加人物描述时，用 `--notes "对方 28 岁，回避型"` 或 `--notes-file notes.txt`；后续记录用 `--append` 做增量画像。
+3. 用户要求回复某一条消息时，运行  
+   `python scripts/emochat_analyze.py reply --message "..." --profile profile.json --json --timing`。  
+   它一次完成意图识别、风险合并、卡片检索与三版安全回复骨架。
+4. 需要手动检索时，运行 `python scripts/emochat_search.py "关键词" --top 5`，用 2-4 组不同关键词；或 `--queries A B --merge` 一次合并检索。
+5. 读取排名最高的 3-5 张卡片，核对 `audience / stage / severity` 是否匹配。
+6. 需要浏览板块时，先读对应 `board-*.md` 的索引表，再按 `path` 读取原文。
+7. 引用时写清卡片 ID 与标题；公开案例与合成案例要区分，坏话术只用于识别。
 
-脚本找不到知识库时，先询问用户仓库路径，再设置 `EMOCHAT_KB` 或传 `--kb`。不要猜测路径，也不要把整库内容复制进回答。"""
+脚本找不到知识库时，先询问用户仓库路径，再设置 `EMOCHAT_KB`、传 `--kb`，或在技能根目录写入 `.emochat-kb`。不要猜测路径，也不要把整库内容复制进回答。"""
 
 PUBLIC_KB_SECTION = """## 使用方式（公开框架版）
 
-本版不包含知识库正文、案例、话术或卡片索引。若你有一份自己的 EmoChat-KB 副本，设置 `EMOCHAT_KB` 指向仓库根目录，技能会通过 `scripts/emochat_search.py` 检索；没有副本时，使用内置 playbooks 做通用分析。不要声称检索了未提供的资料；引用时标明“内置框架”或“用户提供的材料”。"""
+本版不包含知识库正文、案例、话术或卡片索引。若你有一份自己的 EmoChat-KB 副本，设置 `EMOCHAT_KB` 指向仓库根目录：长记录用 `scripts/emochat_analyze.py profile ...`，单条回复用 `scripts/emochat_analyze.py reply ...`，手动检索用 `scripts/emochat_search.py ...`；没有副本时，使用内置 playbooks 做通用分析。不要声称检索了未提供的资料；引用时标明“内置框架”或“用户提供的材料”。"""
 
 PRIVATE_SEARCH_HINT = """## 检索
 
-本版随包提供 589 条卡片索引（`board-*.md`）。优先运行 `python scripts/emochat_search.py "关键词" --top 5`；需要浏览板块时再读对应索引。"""
+本版随包提供 589 条卡片索引（`board-*.md`）与预构建索引。长记录优先 `python scripts/emochat_analyze.py profile ...`，单条回复优先 `reply ...`；手动检索用 `python scripts/emochat_search.py "关键词" --top 5`。"""
 
 PUBLIC_SEARCH_HINT = """## 检索
 
-本版不含卡片索引。如你有自己的同结构知识库，设置 `EMOCHAT_KB` 后运行 `python scripts/emochat_search.py ...`；否则使用本包的 playbooks。"""
+本版不含卡片索引。如你有自己的同结构知识库，设置 `EMOCHAT_KB` 后运行 `scripts/emochat_analyze.py` 或 `scripts/emochat_search.py`；否则使用本包的 playbooks。"""
 
 
 def render(text, values):
@@ -110,7 +125,8 @@ def joined(value):
 def copy_common(target):
     for name in COMMON_REFERENCES:
         copy_file(SRC / "references" / name, target / "references" / name)
-    copy_file(SRC / "scripts" / "emochat_search.py", target / "scripts" / "emochat_search.py")
+    for name in COMMON_SCRIPTS:
+        copy_file(SRC / "scripts" / name, target / "scripts" / name)
     for name in COMMON_ADAPTERS:
         source = SRC / "adapters" / name
         if name == "prompt-pack.md":
@@ -183,7 +199,7 @@ def build_boards(entries, target):
             "",
             f"用途：{purpose}",
             "",
-            "读取原文：`$EMOCHAT_KB/<path>`（仓库相对路径）。",
+            "读取原文：知识库根目录下的 `<path>`（路径配置见 `references/kb-integration.md`）。",
             "",
             "| ID | 标题 | 类型 | 阶段 | 标签 | 路径 |",
             "|---|---|---|---|---|---|",
@@ -222,7 +238,7 @@ def build_entry_map(entries, target):
     )
 
 
-def build_manifest(entries, target, edition, name):
+def build_manifest(entries, target, edition, name, search_index=None):
     counts = {}
     for entry in entries:
         counts[entry.get("board", "")] = counts.get(entry.get("board", ""), 0) + 1
@@ -233,6 +249,7 @@ def build_manifest(entries, target, edition, name):
             "source": "索引/metadata.json",
             "total": len(entries),
             "boards": dict(sorted(counts.items())),
+            "search_index": search_index or {},
         }
     else:
         manifest = {
@@ -243,6 +260,22 @@ def build_manifest(entries, target, edition, name):
             "source_entries": len(entries),
         }
     write(target / "manifest.json", json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+
+
+def build_search_index(target, entries):
+    index = core.build_index(ROOT, entries)
+    path = target / "references" / core.INDEX_FILENAME
+    core.write_index(index, path)
+    stat = path.stat()
+    return {
+        "file": "references/" + core.INDEX_FILENAME,
+        "format": index.get("format"),
+        "docs": len(index.get("docs") or []),
+        "terms": len(index.get("terms") or []),
+        "bytes": stat.st_size,
+        "build_seconds": index.get("build_seconds"),
+        "signature": index.get("signature"),
+    }
 
 
 def build_private(entries):
@@ -272,7 +305,8 @@ def build_private(entries):
     build_index(target, private_board_table(entries), PRIVATE_SEARCH_HINT, notice)
     build_boards(entries, target)
     build_entry_map(entries, target)
-    build_manifest(entries, target, "private", "emochat")
+    search_index = build_search_index(target, entries)
+    build_manifest(entries, target, "private", "emochat", search_index)
 
     notice_text = (SRC / "NOTICE-private.md").read_text(encoding="utf-8")
     write(target / "NOTICE.md", notice_text)
@@ -288,9 +322,13 @@ def private_readme(entries):
 
 - 条目：{len(entries)} 条，{boards} 个板块
 - 入口：`SKILL.md`
-- 检索：`python scripts/emochat_search.py "关键词" --top 5`
+- 长记录画像：`python scripts/emochat_analyze.py profile chat.txt --me "我" --json --timing`
+- 追加人物描述：`--notes "对方 28 岁，回避型"` 或 `--notes-file notes.txt`
+- 增量画像：`python scripts/emochat_analyze.py profile chat.txt --append`
+- 单条回复：`python scripts/emochat_analyze.py reply --message "..." --profile profile.json --json --timing`
+- 手动检索：`python scripts/emochat_search.py "关键词" --top 5`
 - 安装：见 `adapters/installation.md`
-- 索引：`references/index.md` 与 `references/board-*.md`
+- 索引：`references/index.md`、`references/board-*.md`、`references/search-index.pkl.gz`
 - 机器可读：`references/entry-map.json`
 
 本版仅供仓库作者本地/私有环境使用，不得向第三方分发、上传公共平台或用于对外服务。
@@ -337,7 +375,11 @@ def public_readme():
 - 入口：`SKILL.md`
 - 内容：分析流程、风险/亲密/危机 playbook、输出模板、安全边界
 - 不含：EmoChat-KB 的 589 条知识库正文、案例、话术或卡片索引
-- 可选：如自备同结构知识库，设置 `EMOCHAT_KB` 后使用 `scripts/emochat_search.py`
+- 可选：如自备同结构知识库，设置 `EMOCHAT_KB` 后运行
+  - 长记录画像：`python scripts/emochat_analyze.py profile chat.txt --me "我"`
+  - 追加人物描述：`--notes "..."` / `--notes-file notes.txt`；增量用 `--append`
+  - 单条回复：`python scripts/emochat_analyze.py reply --message "..."`
+  - 手动检索：`python scripts/emochat_search.py "关键词" --top 5`
 - 安装：见 `adapters/installation.md`
 
 本版可原样分享；不得加入知识库正文、用于商业服务、训练/微调或修改后再分发。
@@ -350,6 +392,10 @@ def main():
     public = build_public(entries)
     print(f"私有完整版: {private} ({len(entries)} 条)")
     print(f"公开框架版: {public} (仅框架)")
+    manifest = json.loads((private / "manifest.json").read_text(encoding="utf-8"))
+    index_info = manifest.get("search_index") or {}
+    if index_info:
+        print("预构建索引: {docs} 篇 / {terms} 词 / {bytes} 字节 / {build_seconds}s".format(**index_info))
     return 0
 
 
